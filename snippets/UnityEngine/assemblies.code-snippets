@@ -1,0 +1,72 @@
+{
+    "UnityEngine.AIModule" : {
+        "prefix": "using UnityEngine.AI",
+        "body": "using UnityEngine.AI;$0",
+        "description": "(Unity) The AI module implements the path finding features in Unity.",
+    },
+    "UnityEngine.AndroidJNIModule" : {
+        "prefix": "using UnityEngine.AndroidJNI",
+        "body": "using UnityEngine.AndroidJNI;$0",
+        "description": "(Unity) AndroidJNI module allows you to call Java code.",
+    },
+    "UnityEngine.AnimationModule" : {
+        "prefix": "using UnityEngine.Animation",
+        "body": "using UnityEngine.Animation;$0",
+        "description": "(Unity) AndroidJNI module allows you to call Java code.",
+    },
+    "UnityEngine.AssetBundleModule" : {
+        "prefix": "using UnityEngine.AssetBundle",
+        "body": "using UnityEngine.AssetBundle;$0",
+        "description": "(Unity) The AssetBundle module implements the AssetBundle class and related APIs to load data from AssetBundles.",
+    },
+    "UnityEngine.AudioModule" : {
+        "prefix": "using UnityEngine.Audio",
+        "body": "using UnityEngine.Audio;$0",
+        "description": "(Unity) The Audio module implements Unity's audio system.",
+    },
+    "UnityEngine.ClothModule" : {
+        "prefix": "using UnityEngine.Cloth",
+        "body": "using UnityEngine.Cloth;$0",
+        "description": "(Unity) The Cloth module implements cloth physics simulation through the Cloth component.",
+    },
+    "UnityEngine.CoreModule" : {
+        "prefix": "using UnityEngine",
+        "body": "using UnityEngine;$0",
+        "description": "(Unity) The Core module implements basic classes required for Unity to function.",
+    },
+    "UnityEngine.DirectorModule" : {
+        "prefix": "using UnityEngine.Director",
+        "body": "using UnityEngine.Director;$0",
+        "description": "(Unity) The Director module implements the PlayableDirector class.",
+    },
+    "UnityEngine.GameCenterModule" : {
+        "prefix": "using UnityEngine.GameCenter",
+        "body": "using UnityEngine.GameCenter;$0",
+        "description": "(Unity) The GameCenter module provides APIs to use Apple's GameCenter service.",
+    },
+    "UnityEngine.ImageConversionModule" : {
+        "prefix": "using UnityEngine.ImageConversion",
+        "body": "using UnityEngine.ImageConversion;$0",
+        "description": "(Unity) The ImageConversion module implements the ImageConversion class which provides helper methods to convert images from and to PNG, JPEG or EXR formats.",
+    },
+    "UnityEngine.IMGUIModule" : {
+        "prefix": "using UnityEngine.IMGUI",
+        "body": "using UnityEngine.IMGUI;$0",
+        "description": "(Unity) The IMGUI module provides Unity's immediate mode GUI solution for creating in-game and editor user interfaces.",
+    },
+    "UnityEngine.InputLegacyModule" : {
+        "prefix": "using UnityEngine.InputLegacy",
+        "body": "using UnityEngine.InputLegacy;$0",
+        "description": "(Unity) The InputLegacy module implements the Input class used to read player Input.",
+    },
+    "UnityEngine.JSONSerializeModule" : {
+        "prefix": "using UnityEngine.JSONSerialize",
+        "body": "using UnityEngine.JSONSerialize;$0",
+        "description": "(Unity) The JSONSerialize module provides the JsonUtility class which lets you serialize Unity Objects to JSON format.",
+    },
+    "UnityEngine.ParticleSystemModule" : {
+        "prefix": "using UnityEngine.ParticleSystem",
+        "body": "using UnityEngine.ParticleSystem;$0",
+        "description": "(Unity) The ParticleSystem module implements Unity's Particle System.",
+    },
+}
