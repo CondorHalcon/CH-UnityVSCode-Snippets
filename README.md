@@ -2,7 +2,7 @@
 
 Unity VSCode Snippets is a Unity C# snippet extention built for VSCode.
 
-Author: @CondorHalcon
+Author: [@CondorHalcon](https://github.com/CondorHalcon)
 
 ## Features
 
