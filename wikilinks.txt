@@ -1,0 +1,8 @@
+https://github.com/CondorHalcon/unity-vscode-snippets/wiki
+https://github.com/CondorHalcon/unity-vscode-snippets/wiki/CHANGELOGS
+https://github.com/CondorHalcon/unity-vscode-snippets/wiki/Install-&-Update
+
+https://github.com/CondorHalcon/unity-vscode-snippets/wiki/Unreleased
+
+https://github.com/CondorHalcon/unity-vscode-snippets/wiki/v1.0.0-alpha.1-Release-Notes
+https://github.com/CondorHalcon/unity-vscode-snippets/releases/tag/v1.0.0-alpha.1

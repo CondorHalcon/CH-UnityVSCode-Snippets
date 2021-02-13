@@ -4,9 +4,10 @@ Unity VSCode Snippets is a Unity C# snippet extention built for VSCode.
 
 Author: [@CondorHalcon](https://github.com/CondorHalcon)
 
+[Wiki](https://github.com/CondorHalcon/unity-vscode-snippets/wiki)
+
 ### Contents
 - [Features](#features)
-- [Install & Update](#install--update)
 - [Requirments](#requirements)
 - [Known Issues](#known-issues)
 - [Release Notes](#release-notes-v100-alpha1---2021-02-13)
@@ -14,41 +15,6 @@ Author: [@CondorHalcon](https://github.com/CondorHalcon)
 ## Features
 
 - Unity C# snippets
-
-## Install & Update
-__Note__: The repository my have unknown bugs that would be difficult to track down as the code may have been edited. Downloading the repository is highly discouraged. Download a [released](https://github.com/CondorHalcon/unity-vscode-snippets/releases) version instead.
-
-### Install
-#### Method 1 : VSIX
-1. Download a [released](https://github.com/CondorHalcon/unity-vscode-snippets/releases) version in vsix format
-2. Open VSCode
-3. Navigate to the `EXTENSIONS` tab
-4. Click the options `...` and select `Install from VSIX...`
-5. Select the dowloaded VSIX file
-
-#### Method 2 : ZIP
-1. Download a [released](https://github.com/CondorHalcon/unity-vscode-snippets/releases) version in zip format
-2. Extract it
-3. Move it to:
-    - __Windows__ `%USERPROFILE%/.vscode/extentions`
-    - __macOS__ `~/.vscode/extentions`
-    - __Linux__ `~/.vsode/extentions`
-4. Restart VSCode
-
-### Update
-#### Method 1 : VSIX
-1. Download the new [released](https://github.com/CondorHalcon/unity-vscode-snippets/releases) version in vsix format
-2. Open VSCode
-3. Navigate to the `EXTENSIONS` tab
-4. Click the gear on the extention and select `Install Another Version...`
-5. Select the downloaded VSIX file
-
-#### Method 2 : ZIP
-1. Delete the current version file at:
-    - __Windows__ `%USERPROFILE%/.vscode/extentions`
-    - __macOS__ `~/.vscode/extentions`
-    - __Linux__ `~/.vsode/extentions`
-2. Follow the [zip instalation](#method-2--zip)
 
 ## Requirements
 ### Minimum
@@ -62,7 +28,7 @@ __Note__: The repository my have unknown bugs that would be difficult to track d
 None
 
 ## Release Notes [v1.0.0-alpha.1] - 2021-02-13
-> Full [changelog](https://github.com/CondorHalcon/unity-vscode-snippets/blob/master/CHANGELOG.md).
+> All [changelogs](https://github.com/CondorHalcon/unity-vscode-snippets/wiki/CHANGELOGS) page.
 
 ### Added
 - UnityEditor assembly `using UnityEditor;`
