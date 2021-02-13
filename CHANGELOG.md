@@ -1,6 +1,8 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
+## [Unreleased]
+
 ## [v1.0.0-alpha.1] - 2021-02-13
 ### Added
 - UnityEditor assembly `using UnityEditor;`

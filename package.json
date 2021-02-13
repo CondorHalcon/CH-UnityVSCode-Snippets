@@ -2,7 +2,7 @@
     "name": "unity-vscode-snippets",
     "displayName": "Unity VSCode Snippets",
     "description": "Unity C# snippets for VSCode.",
-    "version": "1.0.0-alpha.1",
+    "version": "1.0.0-alpha.2",
     "publisher": "CondorHalcon",
     "repository": "https://github.com/CondorHalcon/unity-vscode-snippets",
     "engines": { "vscode": "^1.53.0" },
@@ -10,7 +10,9 @@
     "contributes": {
         "snippets": [
             { "language": "csharp", "path": "./snippets/UnityEditor/assemblies.code-snippets" },
-            { "language": "csharp", "path": "./snippets/UnityEngine/assemblies.code-snippets" }
+            { "language": "csharp", "path": "./snippets/UnityEngine/assemblies.code-snippets" },
+
+            { "language": "csharp", "path": "./snippets/UnityEngine/UnityEngine.CoreModule.code-snippets" }
         ]
     }
 }
