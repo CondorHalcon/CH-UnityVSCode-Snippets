@@ -2,9 +2,9 @@
     "name": "unity-vscode-snippets",
     "displayName": "Unity VSCode Snippets",
     "description": "Unity C# snippets for VSCode.",
-    "version": "0.1.0_alpha",
+    "version": "0.1.0",
     "publisher": "CondorHalcon",
-    "repository": "",
+    "repository": "https://github.com/CondorHalcon/unity-vscode-snippets",
     "engines": { "vscode": "^1.53.0" },
     "categories": [ "Snippets" ],
     "contributes": {
