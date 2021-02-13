@@ -31,7 +31,7 @@ __Note__: The repository my have unknown bugs that would be difficult to track d
 ## Known Issues
 None
 
-## Release Notes [v0.1.0 (alpha)] - 2021-02-13
+## Release Notes [v1.0.0-alpha.1] - 2021-02-13
 > Full [changelog](https://github.com/CondorHalcon/unity-vscode-snippets/blob/master/CHANGELOG.md).
 
 ### Added

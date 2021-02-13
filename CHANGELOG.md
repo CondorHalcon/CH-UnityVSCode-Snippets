@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
-## [v0.1.0 (alpha)] - 2021-02-13
+## [v1.0.0-alpha.1] - 2021-02-13
 ### Added
 - UnityEditor assembly `using UnityEditor;`
 - UnityEngine.AIModule assembly `using UnityEngine.AI;`
