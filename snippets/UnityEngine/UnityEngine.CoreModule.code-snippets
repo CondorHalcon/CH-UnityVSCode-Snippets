@@ -1,3 +1,114 @@
 {
-    
+    // Attributes
+        
+    // Classes
+        // AddComponentMenu
+            "AddComponentMenu" : {
+                "prefix": "[AddComponentMenu]",
+                "body": "[AddComponentMenu(\"${1:path}\")]$0",
+                "description": "(Unity C#) The AddComponentMenu attribute allows you to place a script anywhere in the \"Component\" menu, instead of just the \"Component->Scripts\" menu.",
+            },
+            // Properties
+                "AddComponentMenu.componentOrder" : {
+                    "prefix": "AddComponentMenu .componentOrder",
+                    "body": "AddComponentMenu.componentOrder",
+                    "description": "(Unity C#) The order of the component in the component menu (lower is higher to the top).",
+                },
+            // Constructors
+                "AddComponentMenu Constructor1" : {
+                    "prefix": "AddComponentMenu(string menuName)",
+                    "body": "AddComponentMenu(${1:string menuName})",
+                    "description": "(Unity C#) Add an item in the Component menu.",
+                },
+                "AddComponentMenu Constructor2" : {
+                    "prefix": "AddComponentMenu(string menuName, int order)",
+                    "body": "AddComponentMenu(${1:string menuName}, ${1:int order})$0",
+                    "description": "(Unity C#) Add an item in the Component menu.",
+                },
+        // AlwaysLinkAssemblyAttribute
+            "AlwaysLinkAssemblyAttribute" : {
+                "prefix": "[assembly : AlwaysLinkAssembly]",
+                "body": "[assembly : AlwaysLinkAssembly]$0",
+                "description": "(Unity C#) Ensure an assembly is always processed during managed code stripping.",
+            },
+        // AndroidDevice
+            // Static Methods
+                "AndroidDevice.SetSustainedPerformanceMode" : {
+                    "prefix": "AndroidDevice .SetSustainedPerformanceMode(bool enabled)",
+                    "body": ".SetSustainedPerformanceMode(bool enabled)$0",
+                    "description": "(Unity C#) Set sustained performance mode. When enabled, sustained performance mode is intended to provide a consistent level of performance for a prolonged amount of time.",
+                },
+        // AnimationCurve
+            // Properties
+                "AnimationCurve.keys" : {
+                    "prefix": "AnimationCurve .keys",
+                    "body": ".keys$0",
+                    "description": "(Unity C#) All keys defined in the animation curve.",
+                },
+                "AnimationCurve.length" : {
+                    "prefix": "AnimationCurve .length",
+                    "body": ".length$0",
+                    "description": "(Unity C#) The number of keys in the curve. (Read Only)",
+                },
+                "AnimationCurve.postWrapMode" : {
+                    "prefix": "AnimationCurve .postWrapMode",
+                    "body": ".postWrapMode$0",
+                    "description": "(Unity C#) The behaviour of the animation after the last keyframe.",
+                },
+                "AnimationCurve.preWrapMode" : {
+                    "prefix": "AnimationCurve .preWrapMode",
+                    "body": ".preWrapMode$0",
+                    "description": "(Unity C#) The behaviour of the animation before the first keyframe.",
+                },
+                "AnimationCurve.this[int]" : {
+                    "prefix": "AnimationCurve .this[int]",
+                    "body": ".this[${1:int}]$0",
+                    "description": "(Unity C#) Retrieves the key at index. (Read Only)",
+                },
+            // Constructors
+                "AnimationCurve Constructor1" : {
+                    "prefix": "AnimationCurve(Keyframe[] keys)",
+                    "body": "AnimationCurve(${1:Keyframe[] keys)$0",
+                    "description": "(Unity C#) Creates an animation curve from an arbitrary number of keyframes.",
+                },
+                "AnimationCurve Constructor2" : {
+                    "prefix": "AnimationCurve()",
+                    "body": "AnimationaCurve()$0",
+                    "description": "(Unity C#) Creates an empty animation curve.",
+                },
+            // Public Methods
+                "AnimationCurve.AddKey1" : {
+                    "prefix": "AnimationCurve .AddKey(float time, float value)",
+                    "body": ".AddKey(${1:float time}, ${2:float value})$0",
+                    "description": "(Unity C#) Add a new key to the curve.",
+                },
+                "AnimationCurve.AddKey2" : {
+                    "prefix": "AnimationCurve .AddKey(Keyframe key)",
+                    "body": ".AddKey(${1:Keyframe key})$0",
+                    "description": "(Unity C#) Add a new key to the curve.",
+                },
+                "AnimationCurve.Evaluate" : {
+                    "prefix": "AnimationCurve .Evaluate(float time)",
+                    "body": ".Evaluate(${1:float time)",
+                    "description": "(Unity C#) Evaluate the curve at \"time.\"",
+                },
+                "AnimationCurve.MoveKey" : {
+                    "prefix": "AnimationCurve .MoveKey(int index, Keyframe key)",
+                    "body": ".MoveKey(${1:int index}, ${2:Keyframe key})$0",
+                    "description": "(Unity C#) Removes the keyframe at \"index\" and inserts \"key\".",
+                },
+                "AnimationCurve.RemoveKey" : {
+                    "prefix": "AnimationCurve .RemoveKey(int index)",
+                    "body": ".RemoveKey(${1:int index})$0",
+                    "description": "(Unity C#) AnimationCurve",
+                },
+                "AnimationCurve.SmoothTangents" : {
+                    "prefix": "AnimationCurve .SmoothTangents(int index, float weight)",
+                    "body": ".SmoothTangents(${1:int index}, ${2:float weight})$0",
+                    "description": "(Unity C#) Smooth the in and out tangents of the keyframe at \"index\".",
+                },
+            // Static Methods
+                
+    // Structs
+    // Enumerations
 }
