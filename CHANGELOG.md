@@ -1,23 +1,29 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
-## [Unreleased]
+## [v1.1.0-alpha] - 2021-05-14
 ### Added
-- UnityEngine.CoreModule.AddComponentMenu attribute `[AddComponentMenu("${1:path}")]`
-- UnityEngine.CoreModule.AddComponentMenu constructors `AddComponentMenu(${1:string menuName})`, `AddComponentMenu(${1:string menuName}, ${2:int order})`
-- UnityEngine.CoreModule.AlwaysLinkAssemblyAttribute attribute `[assembly : AlwaysLinkAssembly]`
-- UnityEngine.CoreModule.AndroidDevice.SetSustainedPerformanceMode method `.SetSustainedPerformanceMode(${1:bool enabled})`
-- UnityEngine.CoreModule.AnimationCurve.keys property `.keys`
-- UnityEngine.CoreModule.AnimationCurve.length property `.length`
-- UnityEngine.CoreModule.AnimationCurve.postWrapMode property `.postWrapMode`
-- UnityEngine.CoreModule.AnimationCurve.preWrapMode property `.preWrapMode`
-- UnityEngine.CoreModule.AnimationCurve.this[int] property `.this[${1:int}]`
-- UnityEngine.CoreModule.AnimationCurve constructors `AnimationCurve(${1:Keyframe[] keys})`, `AnimationCurve()`
-- UnityEngine.CoreModule.AnimationCurve.AddKey methods `.AddKey(${1:float time}, ${2:float value})`, `.AddKey(${1:Keyframe key})`
-- UnityEngine.CoreModule.AnimationCurve.Evaluate method `.Evaluate(${1:float time})`
-- UnityEngine.CoreModule.AnimationCurve.MoveKey method `.MoveKey(${1:int index}, ${2:Keyframe key})`
-- UnityEngine.CoreModule.AnimationCurve.RemoveKey method `.RemoveKey(${1:int index})`
-- UnityEngine.CoreModule.AnimationCurve.SmoothTangents method `.SmoothTangents(${1:int index}, ${2:float weight})`
+- Object class
+  - Object.hideFlags `hideFlags`
+  - Object.name `name`
+  - Object `class Object`
+  - Object.GetInstanceID `GetInstanceID()`
+  - Object.ToString `ToString()`
+  - Object.Destroy `Object.Destroy`
+  - Object.DestroyImmediate `DestroyImmediate(Object obj, bool allowDestroyingAssets = false);`
+  - Object.DontDestroyOnLoad `DontDestroyOnLoad(Object target);`
+  - Object.FindObjectOfType
+    - `FindObjectOfType(Type type)`
+    - `FindObjectOfType<type>()`
+  - Object.FindObjectsOfType
+    - `FindObjectsOfType(Type type)`
+    - `FindObjectsOfType<Type type>()`
+  - Object.Instantiate
+    - `Instantiate(Object original);`
+    - `Instantiate(Object original, Transform parent);`
+    - `Instantiate(Object original, Transform parent, bool instantiateInWorldSpace);`
+    - `Instantiate(Object original, Vector3 position, Quaternion rotation);`
+    - `Instantiate(Object original, Vector3 position, Quaternion rotation, Transform parent);`
 
 ## [v1.0.0-alpha.1] - 2021-02-13
 ### Added
