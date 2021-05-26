@@ -1,0 +1,60 @@
+{
+    // Properties
+    "Component.gameObject" : {
+        "prefix": "gameObject",
+        "body": "gameObject",
+        "description": "The game object this component is attached to.",
+    },
+    "Component.tag" : {
+        "prefix": "tag",
+        "body": "tag",
+        "description": "The tag of this game object.",
+    },
+    "Component.transform" : {
+        "prefix": "transform",
+        "body": "transform",
+        "description": "The Transform attached to this GameObject.",
+    },
+
+    // Public Methods
+    "Component.BroadcastMessage1" : {
+        "prefix": "BrodacasrMessage(string methodName, object parameter, SendMessageOptions options)",
+        "body": "BroadcastMessage(${1:string methodName}, ${2:object parameter = null}, ${3:SendMessageOptions options = SendMessageOptions.RequireReceiver})",
+        "description": "Calls the method named 'methodName' on every MonoBehaviour in this game object or any of its children.",
+    },
+    "Component.BroadcastMessage2" : {
+        "prefix": "BrodacasrMessage(string methodName, object parameter, SendMessageOptions options)",
+        "body": "BroadcastMessage(${1:string methodName}, ${2:SendMessageOptions options = SendMessageOptions.RequireReceiver})",
+        "description": "Calls the method named 'methodName' on every MonoBehaviour in this game object or any of its children.",
+    },
+    "Component.CompareTag" : {
+        "prefix": "CompareTag(string tag)",
+        "body": "CompareTag(${1:string tag})",
+        "description": "Is this game object tagged with 'tag' ?",
+    },
+    "Component.GetComponent1" : {
+        "prefix": "GetComponent(Type type)",
+        "body": "GetComponent(${1:Type type})",
+        "description": "Returns the component of Type 'type' if the game object has one attached, null if it doesn't.",
+    },
+    "Component.GetComponent2" : {
+        "prefix": "GetComponent<Type type>()",
+        "body": "GetComponent<${1:Type type}>()",
+        "description": "Returns the component of Type 'type' if the game object has one attached, null if it doesn't.",
+    },
+    "Component.GetComponent3" : {
+        "prefix": "GetComponent(string type)",
+        "body": "GetComponent(${1:string type})",
+        "description": "Returns the component with name 'type' if the game object has one attached, null if it doesn't.",
+    },
+    "Component.GetComponentInChildren1" : {
+        "prefix": "GetComponentInChildren(Type t)",
+        "body": "GetComponentInChildren(${1:Type t})",
+        "description": "Returns the component of Type type in the GameObject or any of its children using depth first search.",
+    },
+    "Component.GetComponentInChildren2" : {
+        "prefix": "GetComponentInChildren<Type t>()",
+        "body": "GetComponentInChildren<${1:Type t}>()",
+        "description": "Returns the component of Type type in the GameObject or any of its children using depth first search.",
+    },
+}

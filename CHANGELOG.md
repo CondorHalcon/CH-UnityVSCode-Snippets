@@ -1,6 +1,16 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
+## Unrealesed
+### Added
+- Attributes
+  - HeaderAttribute `[Header]`
+  - HideInInspector `[HideInInspector]`
+  - RangeAttribute `[Range]`
+  - SerializeField `[SerializeField]`
+  - TooltipAttribute `[Tooltip]`
+- Component class
+
 ## [v1.1.0-alpha] - 2021-05-14
 ### Added
 - Object class
