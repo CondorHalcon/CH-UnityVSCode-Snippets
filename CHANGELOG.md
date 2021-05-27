@@ -4,12 +4,50 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
 ## Unrealesed
 ### Added
 - Attributes
-  - HeaderAttribute `[Header]`
+  - HeaderAttribute `[Header(header)]`
   - HideInInspector `[HideInInspector]`
-  - RangeAttribute `[Range]`
+  - RangeAttribute `[Range(x,y)]`
   - SerializeField `[SerializeField]`
-  - TooltipAttribute `[Tooltip]`
+  - TooltipAttribute `[Tooltip(tooltip)]`
 - Component class
+  - Component.gameObject `gameObject`
+  - Component.tag `tag`
+  - Component.transform `transform`
+  - Component.BroadcastMessage
+    - `BrodacastMessage(string methodName, object parameter, SendMessageOptions options)`
+    - `BrodacastMessage(string methodName,SendMessageOptions options)`
+  - Component.CompareTag `CompareTag(string tag)`
+  - Component.GetComponent
+    - `GetComponent(Type type)`
+    - `GetComponent<Type type>()`
+    - `GetComponent(string type)`
+  - Component.GetComponentInChildren
+    - `GetComponentInChildren(Type type)`
+    - `GetComponentInChildren<Type type>()`
+  - Component.GetComponentInParent
+    - `GetComponentInParent(Type type)`
+    - `GetComponentInParent<Type type>()`
+  - Component.GetComponents
+    - `GetComponents(Type type)`
+    - `GetComponents<Type type>()`
+  - Component.GetComponentsInChildren
+    - `GetComponentsInChildren(Type type, bool includeInactive)`
+    - `GetComponentsInChildren<${1:Type type}>(${1:bool includeInactive})`
+  - Component.GetComponentsInParent
+    - `GetComponentsInParent(Type t, bool includeInactive)`
+    - `GetComponentsInParent<Type type>()`
+    - `GetComponentsInParent<Type type>(bool includeInactive)`
+  - Component.SendMessage
+    - `SendMessage(string methodName)`
+    - `SendMessage(string methodName, object value)`
+    - `SendMessage(string methodName, object value, SendMessageOptions options)`
+    - `SendMessage(string methodName,SendMessageOptions options)`
+  - Component.SendMessageUpwards
+    - `SendMessageUpwards(string methodName, SendMessageOptions options)`
+    - `SendMessageUpwards(string methodName, object value, SendMessageOptions options)`
+  - Component.TryGetComponent
+    - `TryGetComponent(Type type, out Component component)`
+    - `TryGetComponent(out Component component)`
 
 ## [v1.1.0-alpha] - 2021-05-14
 ### Added
