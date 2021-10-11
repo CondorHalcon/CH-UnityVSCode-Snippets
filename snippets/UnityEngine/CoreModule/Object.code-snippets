@@ -10,7 +10,7 @@
         "body": "name$0",
         "description": "The name of the object.",
     },
-    // Constructors
+    // Child class
     "Object" : {
         "prefix": "class Object",
         "body": [

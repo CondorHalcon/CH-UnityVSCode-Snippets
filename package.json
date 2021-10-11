@@ -1,6 +1,6 @@
 {
-    "name": "unity-vscode-snippets",
-    "displayName": "Unity VSCode Snippets",
+    "name": "ch-unity-vscode-snippets",
+    "displayName": "CH Unity VSCode Snippets",
     "description": "Unity C# snippets for VSCode.",
     "version": "1.2.0-alpha",
     "publisher": "CondorHalcon",
