@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
-## Unrealesed
+## [v1.2.0-alpha]
 ### Added
 - Attributes
   - HeaderAttribute `[Header(header)], []`
@@ -61,6 +61,7 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
   - UnityEngine.ImageConversionModule assembly `using UnityEngine.ImageConversion;`
   - UnityEngine.IMGUIModule assembly `using UnityEngine.IMGUI;`
   - UnityEngine.InputLegacyModule assembly `using UnityEngine.InputLegacy;`
+  - UnityEngine.JSONSerializeModule assembly `using UnityEngine.JSONSerialize;`
   - UnityEngine.ParticleSystemModule assembly `using UnityEngine.ParticleSystem;`
   - UnityEngine.Physics2D assembly `using UnityEngine.Physics2D;`
   - UnityEngine.PhysicsModule assembly `using UnityEngine.Physics;`
@@ -85,7 +86,8 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
   - UnityEngine.WebGLModule assembly `using UnityEngine.WebGL;`
   - UnityEngine.WindModule assembly `using UnityEngine.Wind;`
   - UnityEngine.XRModule assembly `using UnityEngine.XR;`
-
+- Object class
+  - Object child class `class Object`
 
 ## [v1.1.0-alpha] - 2021-05-14
 ### Added

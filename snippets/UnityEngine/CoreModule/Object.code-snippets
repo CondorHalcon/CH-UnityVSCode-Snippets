@@ -10,17 +10,6 @@
         "body": "name$0",
         "description": "The name of the object.",
     },
-    // Child class
-    "Object" : {
-        "prefix": "class Object",
-        "body": [
-            "public class ${1:name} : Object",
-            "{",
-            "    $0",
-            "}"
-        ],
-        "description": "Class that inherits from 'Object' class.",
-    },
     // Public Methods
     "Object.GetInstanceID" : {
         "prefix": "GetInstanceID()",

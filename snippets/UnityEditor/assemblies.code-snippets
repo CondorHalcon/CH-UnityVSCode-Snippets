@@ -1,7 +1,0 @@
-{
-    "UnityEditor" : {
-        "prefix": "using UnityEditor",
-        "body": "using UnityEditor;$0",
-        "description": "(Unity) The UnityEditor assembly implements the editor-specific APIs in Unity. It cannot be referenced by runtime code compiled into players.",
-    },
-}

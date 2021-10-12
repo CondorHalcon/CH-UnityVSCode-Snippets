@@ -1,13 +1,13 @@
 {
+    "UnityEditor" : {
+        "prefix": "using UnityEditor",
+        "body": "using UnityEditor;$0",
+        "description": "(Unity) The UnityEditor assembly implements the editor-specific APIs in Unity. It cannot be referenced by runtime code compiled into players.",
+    },
     "UnityEngine.CoreModule" : {
         "prefix": "using UnityEngine",
         "body": "using UnityEngine;$0",
         "description": "(Unity C#) The Core module implements basic classes required for Unity to function.",
-    },
-    "UnityEngine.JSONSerializeModule" : {
-        "prefix": "using UnityEngine.JSONSerialize",
-        "body": "using UnityEngine.JSONSerialize;$0",
-        "description": "(Unity C#) The JSONSerialize module provides the JsonUtility class which lets you serialize Unity Objects to JSON format.",
     },
     "UnityEngine.UIModule" : {
         "prefix": "using UnityEngine.UI",

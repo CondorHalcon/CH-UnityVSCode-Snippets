@@ -1,26 +1,26 @@
 {
     "Header" : {
-        "prefix": "[Header(\"header\")], []",
+        "prefix": "[Header(\"header\")]",
         "body": "[Header(\"${1:header}\")]",
         "description": "Use this PropertyAttribute to add a header above some fields in the Inspector.",
     },
     "HideInInspector" : {
-        "prefix": "[HideInInpector], []",
+        "prefix": "[HideInInpector]",
         "body": "[HideInInpector]",
         "description": "Makes a variable not show up in the inspector but be serialized.",
     },
     "Range" : {
-        "prefix": "[Range(x,y)], []",
+        "prefix": "[Range(x,y)]",
         "body": "[Range(${1:x},${2:y})]",
         "description": "Attribute used to make a float or int variable in a script be restricted to a specific range.",
     },
     "SerializeField" : {
-        "prefix": "[SerializeField], []",
+        "prefix": "[SerializeField]",
         "body": "[SerializeField]",
         "description": "Force Unity to serialize a private field.",
     },
     "Tooltip" : {
-        "prefix": "[Tooltip(\"tooltip\")], []",
+        "prefix": "[Tooltip(\"tooltip\")]",
         "body": "[Tooltip(\"${1:tooltip}\")]",
         "description": "Specify a tooltip for a field in the Inspector window.",
     },
