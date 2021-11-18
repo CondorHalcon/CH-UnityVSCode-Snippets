@@ -1,10 +1,10 @@
 {
-    "name": "ch-unity-vscode-snippets",
-    "displayName": "CH Unity VSCode Snippets",
+    "name": "ch-unityvscode-snippets",
+    "displayName": "CH UnityVSCode Snippets",
     "description": "Unity C# snippets for VSCode.",
-    "version": "1.2.0-alpha",
+    "version": "1.3.0-alpha",
     "publisher": "CondorHalcon",
-    "repository": "https://github.com/CondorHalcon/ch-unity-vscode-snippets",
+    "repository": "https://github.com/CondorHalcon/CH-UnityVSCode-Snippets",
     "engines": { "vscode": "^1.53.0" },
     "categories": [ "Snippets" ],
     "contributes": {
@@ -13,6 +13,7 @@
 
             { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/attributes.code-snippets"},
             { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/Component.code-snippets"},
+            { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/GameObject.code-snippets"},
             { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/Object.code-snippets"}
         ]
     }

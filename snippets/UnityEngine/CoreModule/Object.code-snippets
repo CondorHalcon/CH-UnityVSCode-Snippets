@@ -2,84 +2,84 @@
     // Properties
     "Object.hideFlags" : {
         "prefix": "hideFlags",
-        "body": "hideFlags$0",
+        "body": "hideFlags",
         "description": "Should the object be hidden, saved with the Scene or modifiable by the user?",
     },
     "Object.name" : {
         "prefix": "name",
-        "body": "name$0",
+        "body": "name",
         "description": "The name of the object.",
     },
     // Public Methods
     "Object.GetInstanceID" : {
         "prefix": "GetInstanceID()",
-        "body": "GetInstanceID()$0",
+        "body": "GetInstanceID()",
         "description": "Returns the instance id of the object.",
     },
     "Object.ToString" : {
         "prefix": "ToString()",
-        "body": "ToString()$0",
+        "body": "ToString()",
         "description": "Returns the name of the object.",
     },
     // Static Methods
     "Object.Destroy" : {
         "prefix": "Destroy(Object obj, float t=0f)",
-        "body": "Destroy(${1:Object obj}, ${2:float t = 0.0F});$0",
+        "body": "Destroy(${1:Object obj}, ${2:float t = 0.0F});",
         "description": "Removes a GameObject, component or asset.",
     },
     "Object.DestroyImmediate" : {
         "prefix": "DestroyImmediate(Object obj, bool allowDestroyingAssets = false);",
-        "body": "DestroyImmediate(${1:Object obj}, ${2:bool allowDestroyingAssets = false});$0",
+        "body": "DestroyImmediate(${1:Object obj}, ${2:bool allowDestroyingAssets = false});",
         "description": "Destroys the object 'obj' immediately. You are strongly recommended to use Destroy instead.",
     },
     "Object.DontDestroyOnLoad" : {
         "prefix": "DontDestroyOnLoad(Object target);",
-        "body": "DontDestroyOnLoad(${1:Object target});$0",
+        "body": "DontDestroyOnLoad(${1:Object target});",
         "description": "Do not destroy the target Object when loading a new Scene.",
     },
     "Object.FindObjectOfType1" : {
         "prefix": "FindObjectOfType(Type type)",
-        "body": "FindObjectOfType(${1:Type type})$0",
+        "body": "FindObjectOfType(${1:Type type})",
         "description": "Returns the first active loaded object of Type type.",
     },
     "Object.FindObjectOfType2" : {
         "prefix": "FindObjectOfType<type>()",
-        "body": "FindObjectOfType<${1:Type type}>()$0",
+        "body": "FindObjectOfType<${1:Type type}>()",
         "description": "Returns the first active loaded object of Type type.",
     },
     "Object.FindObjectsOfType1" : {
         "prefix": "FindObjectsOfType(Type type)",
-        "body": "FindObjectsOfType(${1:Type type})$0",
+        "body": "FindObjectsOfType(${1:Type type})",
         "description": "Returns a list of all active loaded objects of Type type.",
     },
     "Object.FindObjectsOfType2" : {
         "prefix": "FindObjectsOfType<Type type>()",
-        "body": "FindObjectsOfType<${1:Type type}>()$0",
+        "body": "FindObjectsOfType<${1:Type type}>()",
         "description": "Returns a list of all active loaded objects of Type type.",
     },
     "Object.Instantiate1" : {
         "prefix": "Instantiate(Object original);",
-        "body": "Instantiate(${1:Object original});$0",
+        "body": "Instantiate(${1:Object original});",
         "description": "Clones the object original and returns the clone.",
     },
     "Object.Instantiate2" : {
         "prefix": "Instantiate(Object original, Transform parent);",
-        "body": "Instantiate(${1:Object original}, ${2:Transform parent});$0",
+        "body": "Instantiate(${1:Object original}, ${2:Transform parent});",
         "description": "Clones the object original and returns the clone.",
     },
     "Object.Instantiate3" : {
         "prefix": "Instantiate(Object original, Transform parent, bool instantiateInWorldSpace);",
-        "body": "Instantiate(${1:Object original}, ${2:Transform parent}, ${3:bool instantiateInWorldSpace});$0",
+        "body": "Instantiate(${1:Object original}, ${2:Transform parent}, ${3:bool instantiateInWorldSpace});",
         "description": "Clones the object original and returns the clone.",
     },
     "Object.Instantiate4" : {
         "prefix": "Instantiate(Object original, Vector3 position, Quaternion rotation);",
-        "body": "Instantiate(${1:Object original}, ${2:Vector3 position}, ${3:Quaternion rotation});$0",
+        "body": "Instantiate(${1:Object original}, ${2:Vector3 position}, ${3:Quaternion rotation});",
         "description": "Clones the object original and returns the clone.",
     },
     "Object.Instantiate5" : {
         "prefix": "Instantiate(Object original, Vector3 position, Quaternion rotation, Transform parent);",
-        "body": "Instantiate(${1:Object original}, ${2:Vector3 position}, ${3:Quaternion rotation}, ${4:Transform parent});$0",
+        "body": "Instantiate(${1:Object original}, ${2:Vector3 position}, ${3:Quaternion rotation}, ${4:Transform parent});",
         "description": "Clones the object original and returns the clone.",
     },
     // Messages
