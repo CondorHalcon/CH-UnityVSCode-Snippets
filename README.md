@@ -68,7 +68,7 @@ Unity  | -       | 2019.4LTS
 None
 
 ## Release Notes [v1.2.0-alpha]
-> All [changelogs](https://github.com/CondorHalcon/ch-unity-vscode-snippets/CHANGELOG.md).
+> All [changelogs](https://github.com/CondorHalcon/CH-UnityVSCode-Snippets/CHANGELOG.md).
 
 ### Added
 - Attributes
