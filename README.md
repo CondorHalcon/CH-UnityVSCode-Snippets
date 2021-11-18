@@ -59,7 +59,7 @@ Object.FindObjectsOfType | `FindObjectsOfType(Type type)`, `FindObjectsOfType<Ty
 Object.Instantiate | `Instantiate(Object original);`, `Instantiate(Object original, Transform parent);`, `Instantiate(Object original, Transform parent, bool instantiateInWorldSpace);`, `Instantiate(Object original, Vector3 position, Quaternion rotation);`, `Instantiate(Object original, Vector3 position, Quaternion rotation, Transform parent);`
 
 ## Requirements
-- | Minimum | Recomended
+item | Minimum | Recomended
 -------|---------|-----------
 VSCode | 1.53.0  | 1.53.0
 Unity  | -       | 2019.4LTS
@@ -68,7 +68,7 @@ Unity  | -       | 2019.4LTS
 None
 
 ## Release Notes [v1.2.0-alpha]
-> All [changelogs](https://github.com/CondorHalcon/ch-unity-vscode-snippets/CHANGELOG.md).
+> All [changelogs](https://github.com/CondorHalcon/CH-UnityVSCode-Snippets/CHANGELOG.md).
 
 ### Added
 - Attributes
