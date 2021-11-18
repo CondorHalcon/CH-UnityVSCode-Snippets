@@ -12,3 +12,14 @@
     // Enumerations
 }
 ```
+
+### Class
+``` json
+{
+    // Properties
+    // Constructors
+    // Public Methods
+    // Static Methods
+    // Messages
+}
+```

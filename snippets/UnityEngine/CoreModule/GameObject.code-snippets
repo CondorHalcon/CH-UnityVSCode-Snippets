@@ -1,0 +1,259 @@
+{
+    // Properties
+    "GameObject.activeInHierarchy" : {
+        "prefix": "activeInHeirachy",
+        "body": "activeInHeirachy",
+        "description": "Defines whether the GameObject is active in the Scene."
+    },
+    "GameObject.activeSelf" : {
+        "prefix": "activeSelf",
+        "body": "activeSelf",
+        "description": "The Local active state of this GameObject. (Read Only)",
+    },
+    "GameObject.isStatic" : {
+        "prefix": "isStatic",
+        "body": "isStatic",
+        "description": "Gets and sets the GameObject's StaticEditorFlags.",
+    },
+    "GameObject.layer" : {
+        "prefix": "layer",
+        "body": "layer",
+        "description": "The layer the game object is in.",
+    },
+    "GameObject.scene" : {
+        "prefix": "scene",
+        "body": "scene",
+        "description": "Scene that the GameObject is part of.",
+    },
+    "GameObject.sceneCullingMask" : {
+        "prefix": "sceneCullingMask",
+        "body": "sceneCullingMask",
+        "description": "Scene culling mask Unity uses to determine which scene to render the GameObject in.",
+    },
+    "GameObject.tag" : {
+        "prefix": "tag",
+        "body": "tag",
+        "description": "The tag of this game object.",
+    },
+    "GameObject.transform" : {
+        "prefix": "transform",
+        "body": "transform",
+        "description": "The Transform attached to this GameObject.",
+    },
+
+    // Constructors
+    "GameObject Constructor1" : {
+        "prefix": "new GameObject()",
+        "body": "new GameObject()",
+        "description": "Creates a new game object, named name.",
+    },
+    "GameObject Constructor2" : {
+        "prefix": "new GameObject(string name)",
+        "body": "new GameObject(${1:string name})",
+        "description": "Creates a new game object, named name.",
+    },
+    "GameObject Constructor3" : {
+        "prefix": "new GameObject(string name, params Type[] components)",
+        "body": "new GameObject(${1:string name}, ${2:params Type[] components})",
+        "description": "Creates a new game object, named name.",
+    },
+
+    // Public Methods
+    "GameObject.AddComponent1" : {
+        "prefix": "AddComponent(string className)",
+        "body": "AddComponent(${1:string className})",
+        "description": "Adds a component class named className to the game object.",
+    },
+    "GameObject.AddComponent2" : {
+        "prefix": "AddComponent(Type componentType)",
+        "body": "AddComponent(${1:Type componentType})",
+        "description": "Adds a component class of type componentType to the game object. C# Users can use a generic version.",
+    },
+    "GameObject.AddComponent3" : {
+        "prefix": "AddComponent<Type componentType>()",
+        "body": "AddComponent<${1:Type componentType}>()",
+        "description": "Adds a component class of type componentType to the game object. (Generic version)",
+    },
+    "GameObject.BroadcastMessage1" : {
+        "prefix": "BroadcastMessage(string methodName, object parameter = null, SendMessageOptions options = SendMessageOptions.RequireReceiver)",
+        "body": "BroadcastMessage(${1:string methodName}, ${2:object parameter = null}, ${3:SendMessageOptions options = SendMessageOptions.RequireReceiver})",
+        "description": "Calls the method named methodName on every MonoBehaviour in this game object or any of its children.",
+    },
+    "GameObject.BroadcastMessage2" : {
+        "prefix": "BroadcastMessage(string methodName)",
+        "body": "BroadcastMessage(${1:string methodName})",
+        "description": "Calls the method named methodName on every MonoBehaviour in this game object or any of its children.",
+    },
+    "GameObject.BroadcastMessage3" : {
+        "prefix": "BroadcastMessage(string methodName, object parameter = null)",
+        "body": "BroadcastMessage(${1:string methodName}, ${2:object parameter = null})",
+        "description": "Calls the method named methodName on every MonoBehaviour in this game object or any of its children.",
+    },
+    "GameObject.CompareTag" : {
+        "prefix": "CompareTag(string tag)",
+        "body": "CompareTag(${1:string tag})",
+        "description": "Is this game object tagged with tag ?",
+    },
+    "GameObject.GetComponent1" : {
+        "prefix": "GetComponent(Type type)",
+        "body": "GetComponent(${1:Type type})",
+        "description": "Returns the component of Type type if the game object has one attached, null if it doesn't.",
+    },
+    "GameObject.GetComponent2" : {
+        "prefix": "GetComponent<Type type>()",
+        "body": "GetComponent<${1:Type type}>()",
+        "description": "Returns the component of Type type if the game object has one attached, null if it doesn't. (Generic version)",
+    },
+    "GameObject.GetComponent3" : {
+        "prefix": "GetComponent(string type)",
+        "body": "GetComponent(${1:string type})",
+        "description": "Returns the component with name type if the game object has one attached, null if it doesn't.",
+    },
+    "GameObject.GetComponentInChildren1" : {
+        "prefix": "GetComponentInChildren(Type type)",
+        "body": "GetComponentInChildren(${1:Type type})",
+        "description": "Returns the component of Type type in the GameObject or any of its children using depth first search.",
+    },
+    "GameObject.GetComponentInChildren2" : {
+        "prefix": "GetComponentInChildren(Type type, bool includeInactive = false)",
+        "body": "GetComponentInChildren(${1:Type type}, ${2:bool includeInactive = false})",
+        "description": "Returns the component of Type type in the GameObject or any of its children using depth first search.",
+    },
+    "GameObject.GetComponentInChildren3" : {
+        "prefix": "GetComponentInChildren<Type type>()",
+        "body": "GetComponentInChildren<${1:Type type}>()",
+        "description": "Returns the component of Type type in the GameObject or any of its children using depth first search. (Generic version)",
+    },
+    "GameObject.GetComponentInChildren4" : {
+        "prefix": "GetComponentInChildren<Type type>(bool includeInactive = false)",
+        "body": "GetComponentInChildren<${1:Type type}>(${2:bool includeInactive = false})",
+        "description": "Returns the component of Type type in the GameObject or any of its children using depth first search. (Generic version)",
+    },
+    "GameObject.GetComponentInParent1" : {
+        "prefix": "GetComponentInParent(Type type)",
+        "body": "GetComponentInParent(${1:Type type})",
+        "description": "Retrieves the component of Type type in the GameObject or any of its parents.",
+    },
+    "GameObject.GetComponentInParent2" : {
+        "prefix": "GetComponentInParent<Type type>()",
+        "body": "InParent<${1:Type type}>()",
+        "description": "Retrieves the component of Type type in the GameObject or any of its parents. (Generic version)",
+    },
+    "GameObject.GetComponents1" : {
+        "prefix": "GetComponents(Type type)",
+        "body": "GetComponents(${1:Type type})",
+        "description": "Returns all components of Type type in the GameObject.",
+    },
+    "GameObject.GetComponents2" : {
+        "prefix": "GetCompomenents<Type type>()",
+        "body": "GetCompomenents<${1:Type type}>()",
+        "description": "Returns all components of Type type in the GameObject. (Generic version)",
+    },
+    "GameObejct.GetComponents3" : {
+        "prefix": "GetComponents(Type type, List<Component> results)",
+        "body": "GetCompoents(${1:Type type}, ${2:List<Component> results})",
+        "description": "Returns all components of Type type in the GameObject into List results. Note that results is of type Component, not the type of the component retrieved.",
+    },
+    "GameObject.GetComponents4" : {
+        "prefix": "GetComponents(List<T> results)",
+        "body": "GetComponents(${1:List<T> results})",
+        "description": "Returns all components of Type type in the GameObject into List results.",
+    },
+    "GameObject.GetComponentsInChildren1" : {
+        "prefix": "GetComponentsInChildren(Type type, bool includeInactive = false)",
+        "body": "GetComponentsInChildren(${1:Type type}, ${2:bool includeInactive = false})",
+        "description": "Returns all components of Type type in the GameObject or any of its children.",
+    },
+    "GameObject.GetComponentsInChildren2" : {
+        "prefix": "GetComponentsInChildren<Type type>(bool includeInactive)",
+        "body": "GetComponentsInChildren<${1:Type type}>(${2:bool includeInactive})",
+        "description": "T[] A list of all found components matching the specified type. (Generic version)",
+    },
+    "GameObject.GetComponentsInChildren3" : {
+        "prefix": "GetComponentsInChildren(List<T> results)",
+        "body": "GetComponentsInChildren(${1:List<T> results})",
+        "description": "Return all found Components into List results.",
+    },
+    "GameObject.GetComponentsInChildren4" : {
+        "prefix": "GetComponentsInChildren<Type type>(List<T> results)",
+        "body": "GetComponentsInChildren<${1:Type type}>(${2:List<T> results})",
+        "description": "Return all found Components into List results. (Generic version)",
+    },
+    "GameObject.GetComponentsInChildren5" : {
+        "prefix": "GetComponentsInChildren(bool includeInactive, List<T> results)",
+        "body": "GetComponentsInChildren(${1:bool includeInactive}, ${2:List<T> results})",
+        "description": "Return all found Components into List results.",
+    },
+    "GameObject.GetComponentsInChildren6" : {
+        "prefix": "GetComponentsInChildren<Type type>(bool includeInactive, List<T> results)",
+        "body": "GetComponentsInChildren<${1:Type type}>(${2:bool includeInactive}, ${3:List<T> results})",
+        "description": "Return all found Components into List results. (Generic version)",
+    },
+    "GameObject.GetComponentsInParent1" : {
+        "prefix": "GetComponentsInParent(Type type, bool includeInactive = false)",
+        "body": "GetComponentsInParent(${1:Type type}, ${2:bool includeInactive = false})",
+        "description": "Returns all components of Type type in the GameObject or any of its parents.",
+    },
+    "GameObject.GetComponentsInParent2" : {
+        "prefix": "GetComponentsInParent<Type type>(bool includeInactive = false)",
+        "body": "GetComponentsInParent<${1:Type type}>(${2:bool includeInactive = false})",
+        "description": "Returns all components of Type type in the GameObject or any of its parents. (Generic version)",
+    },
+    "GameObject.GetComponentsInParent3" : {
+        "prefix": "GetComponentsInParent(bool includeInactive, List<T> results)",
+        "body": "GetComponentsInParent(bool includeInactive, List<T> results)",
+        "description": "Find Components in GameObject or parents, and return them in List results.",
+    },
+    "GameObject.GetComponentsInParent4" : {
+        "prefix": "GetComponentsInParent<Type type>(bool includeInactive, List<T> results)",
+        "body": "GetComponentsInParent<${1:Type type}>(${2:bool includeInactive}, ${3:List<T> results})",
+        "description": "Find Components in GameObject or parents, and return them in List results. (Generic version)",
+    },
+    "GameObject.SendMessage" : {
+        "prefix": "SendMessage(string methodName, object value = null, SendMessageOptions options = SendMessageOptions.RequireReceiver)",
+        "body": "SendMessage(${1:string methodName}, ${2:object value = null}, ${3:SendMessageOptions options = SendMessageOptions.RequireReceiver})",
+        "description": "Calls the method named methodName on every MonoBehaviour in this game object.",
+    },
+    "GameObject.SendMessageUpwards" : {
+        "prefix": "SendMessageUpwards(string methodName, object value = null, SendMessageOptions options = SendMessageOptions.RequireReceiver)",
+        "body": "SendMessageUpwards(${1:string methodName}, ${2:object value = null}, ${3:SendMessageOptions options = SendMessageOptions.RequireReceiver})",
+        "description": "Calls the method named methodName on every MonoBehaviour in this game object and on every ancestor of the behaviour.",
+    },
+    "GameObject.SetActive" : {
+        "prefix": "SetActive(bool value)",
+        "body": "SetActive(${1:bool value})",
+        "description": "Activates/Deactivates the GameObject, depending on the given true or false value.",
+    },
+    "GameObject.TryGetComponent1" : {
+        "prefix": "TryGetComponent(Type type, out Component component)",
+        "body": "TryGetComponent(${1:Type type}, out ${2:Component component})",
+        "description": "Gets the component of the specified type, if it exists.",
+    },
+    "GameObject.TryGetComponent2" : {
+        "prefix": "TryGetComponent(out T component)",
+        "body": "TryGetComponent(out ${1:T component})",
+        "description": "Gets the component of the specified type, if it exists. (Generic version)",
+    },
+
+    // Static Methods
+    "GameObject.CreatePrimitive" : {
+        "prefix": "CreatePrimitive(PrimitiveType type)",
+        "body": "CreatePrimitive(${1:PrimitiveType type})",
+        "description": "Creates a game object with a primitive mesh renderer and appropriate collider.",
+    },
+    "GameObject.Find" : {
+        "prefix": "Find(string name)",
+        "body": "Find(${1:string name})",
+        "description": "Finds a GameObject by name and returns it.",
+    },
+    "GameObject.FindGameObjectsWithTag" : {
+        "prefix": "FindGameObjectsWithTag(string tag)",
+        "body": "FindGameObjectsWithTag(${1:string tag})",
+        "description": "Returns an array of active GameObjects tagged tag. Returns empty array if no GameObject was found.",
+    },
+    "GameObject.FindWithTag" : {
+        "prefix": "FindWithTag(string tag)",
+        "body": "FindWithTag(${1:string tag})",
+        "description": "Returns one active GameObject tagged tag. Returns null if no GameObject was found.",
+    },
+}
