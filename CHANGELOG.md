@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
-## [Unreleased]
+## [v1.3.0-alpha] 2021-12-26
 ### Added
 - GameObject class
   - GameObject.activeInHierarchy `activeInHeirachy`
@@ -72,6 +72,7 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
   - RangeAttribute `[Range(x,y)], []` to `[Range(x,y)]`
   - SerializeField `[SerializeField], []` to `[SerializeField]`
   - TooltipAttribute `[Tooltip(tooltip)], []` to `[Tooltip(tooltip)]`
+- Fixed typo : Attributes HideInspector `[HideInInpector]` to `[HideInInspector]`
 
 ## [v1.2.0-alpha] - 2021-11-18
 ### Added

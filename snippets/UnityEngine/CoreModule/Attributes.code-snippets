@@ -5,8 +5,8 @@
         "description": "Use this PropertyAttribute to add a header above some fields in the Inspector.",
     },
     "HideInInspector" : {
-        "prefix": "[HideInInpector]",
-        "body": "[HideInInpector]",
+        "prefix": "[HideInInspector]",
+        "body": "[HideInInspector]",
         "description": "Makes a variable not show up in the inspector but be serialized.",
     },
     "Range" : {
