@@ -2,7 +2,7 @@
     "name": "ch-unityvscode-snippets",
     "displayName": "CH UnityVSCode Snippets",
     "description": "Unity C# snippets for VSCode.",
-    "version": "1.3.0-alpha",
+    "version": "1.3.1-alpha",
     "publisher": "CondorHalcon",
     "repository": "https://github.com/CondorHalcon/CH-UnityVSCode-Snippets",
     "engines": {
@@ -34,8 +34,5 @@
                 "path": "./snippets/UnityEngine/CoreModule/Object.code-snippets"
             }
         ]
-    },
-    "dependencies": {
-        "vsce": "^2.5.3"
     }
 }
