@@ -145,8 +145,8 @@
         "description": "Returns all components of Type type in the GameObject.",
     },
     "GameObject.GetComponents2" : {
-        "prefix": "GetCompomenents<Type type>()",
-        "body": "GetCompomenents<${1:Type type}>()",
+        "prefix": "GetComponents<Type type>()",
+        "body": "GetComponents<${1:Type type}>()",
         "description": "Returns all components of Type type in the GameObject. (Generic version)",
     },
     "GameObejct.GetComponents3" : {
