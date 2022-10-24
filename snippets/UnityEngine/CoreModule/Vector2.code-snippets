@@ -1,49 +1,9 @@
 {
     // Static Properties
-    "Vector2.properties" {
+    "Vector2.properties": {
         "prefix": "Vector2.staticproperty",
         "body": "Vector2.${1|down,left,negaticeInfinity,one,positiveInfinity,right,up,zero|}",
-        "description": "Vector2 static property."
-    },
-    "Vector2.down": {
-        "prefix": "down",
-        "body": "down",
-        "description": "Shorthand for writing Vector2(0, -1)."
-    },
-    "Vector2.left": {
-        "prefix": "left",
-        "body": "left",
-        "description": "Shorthand for writing Vector2(-1, 0)."
-    },
-    "Vector2.negativeInfinity": {
-        "prefix": "negativeInfinity",
-        "body": "negativeInfinity",
-        "description": "Shorthand for writing Vector2(float.NegativeInfinity, float.NegativeInfinity)."
-    },
-    "Vector2.one": {
-        "prefix": "one",
-        "body": "one",
-        "description": "Shorthand for writing Vector2(1, 1)."
-    },
-    "Vector2.positiveInfinity": {
-        "prefix": "positiveInfinity",
-        "body": "positiveInfinity",
-        "description": "Shorthand for writing Vector2(float.PositiveInfinity, float.PositiveInfinity)."
-    },
-    "Vector2.right": {
-        "prefix": "right",
-        "body": "right",
-        "description": "Shorthand for writing Vector2(1, 0)."
-    },
-    "Vector2.up": {
-        "prefix": "up",
-        "body": "up",
-        "description": "Shorthand for writing Vector2(0, 1)."
-    },
-    "Vector2.zero": {
-        "prefix": "zero",
-        "body": "zero",
-        "description": "Shorthand for writing Vector2(0, 0)."
+        "description": "Vector2 static property.",
     },
     // Properties
     "Vector2.magnitude": {
