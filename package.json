@@ -13,26 +13,11 @@
     ],
     "contributes": {
         "snippets": [
-            {
-                "language": "csharp",
-                "path": "./snippets/assemblies.code-snippets"
-            },
-            {
-                "language": "csharp",
-                "path": "./snippets/UnityEngine/CoreModule/attributes.code-snippets"
-            },
-            {
-                "language": "csharp",
-                "path": "./snippets/UnityEngine/CoreModule/Component.code-snippets"
-            },
-            {
-                "language": "csharp",
-                "path": "./snippets/UnityEngine/CoreModule/GameObject.code-snippets"
-            },
-            {
-                "language": "csharp",
-                "path": "./snippets/UnityEngine/CoreModule/Object.code-snippets"
-            }
+            { "language": "csharp", "path": "./snippets/assemblies.code-snippets" },
+            { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/attributes.code-snippets" },
+            { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/Component.code-snippets" },
+            { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/GameObject.code-snippets" },
+            { "language": "csharp", "path": "./snippets/UnityEngine/CoreModule/Object.code-snippets" }
         ]
     }
 }
