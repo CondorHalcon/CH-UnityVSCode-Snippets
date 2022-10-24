@@ -1,5 +1,10 @@
 {
     // Static Properties
+    "Vector2.properties" {
+        "prefix": "Vector2.staticproperty",
+        "body": "Vector2.${1|down,left,negaticeInfinity,one,positiveInfinity,right,up,zero|}",
+        "description": "Vector2 static property."
+    },
     "Vector2.down": {
         "prefix": "down",
         "body": "down",
