@@ -44,8 +44,8 @@
     },
     // Public Methods
     "Vector2.Equals": {
-        "prefix": "Equals(Vector 2)",
-        "body": "Equals(${2:Vector 2})",
+        "prefix": "Equals(object other)",
+        "body": "Equals(${2:object other})",
         "description": "Returns true if the given vector is exactly equal to this vector."
     },
     "Vector2.Normalize": {
@@ -55,7 +55,7 @@
     },
     "Vector2.Set": {
         "prefix": "Set(float newX, float newY)",
-        "body": "Set(float newX, float newY)",
+        "body": "Set(${1:float newX}, ${2:float newY})",
         "description": "Set x and y components of an existing Vector2."
     },
     "Vector2.ToString": {
@@ -138,16 +138,5 @@
         "prefix": "SmoothDamp(Vector2 current, Vector2 target, ref Vector2 currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)",
         "body": "SmoothDamp(${1:Vector2 current}, ${2:Vector2 target}, ${3:ref Vector2 currentVelocity}, ${4:float smoothTime}, ${5:float maxSpeed = Mathf.Infinity}, ${6:float deltaTime = Time.deltaTime})",
         "description": "Gradually changes a vector towards a desired goal over time."
-    },
-    // Operators
-    "Vector2.Vector2": {
-        "prefix": "Vector2",
-        "body": "Vector2",
-        "description": "Converts a Vector3 to a Vector2."
-    },
-    "Vector2.Vector3": {
-        "prefix": "Vector3",
-        "body": "Vector3",
-        "description": "Converts a Vector2 to a Vector3."
     },
 }
