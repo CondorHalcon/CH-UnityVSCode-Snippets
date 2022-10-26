@@ -1,0 +1,132 @@
+{
+    // Static Properties
+    "Vector4.properties": {
+        "prefix": "Vector4.staticproperty",
+        "body": "Vector4.${1|negaticeInfinity,one,positiveInfinity,zero|}",
+        "description": "Vector4 static property.",
+    },
+    // Properties
+    "Vector4.magnitude": {
+        "prefix": "magnitude",
+        "body": "magnitude",
+        "description": "Returns the length of this vector (Read Only)."
+    },
+    "Vector4.normalized": {
+        "prefix": "normalized",
+        "body": "normalized",
+        "description": "Returns this vector with a magnitude of 1 (Read Only)."
+    },
+    "Vector4.sqrMagnitude": {
+        "prefix": "sqrMagnitude",
+        "body": "sqrMagnitude",
+        "description": "Returns the squared length of this vector (Read Only)."
+    },
+    "Vector4.this": {
+        "prefix": "this[int]",
+        "body": "this[${1:int}]",
+        "description": "Access the x or y component using [0] or [1] respectively."
+    },
+    "Vector4.w": {
+        "prefix": "w",
+        "body": "w",
+        "description": "W component of the vector."
+    },
+    "Vector4.x": {
+        "prefix": "x",
+        "body": "x",
+        "description": "X component of the vector."
+    },
+    "Vector4.y": {
+        "prefix": "y",
+        "body": "y",
+        "description": "Y component of the vector."
+    },
+    "Vector4.z": {
+        "prefix": "z",
+        "body": "z",
+        "description": "Z component of the vector."
+    },
+    // Constructor
+    "Vector4": {
+        "prefix": "new Vector4(float x, float y, float z, float w)",
+        "body": "new Vector4(${1:float x}, ${2:float y}, ${3:float z}, ${4:float w})",
+        "description": "Creates a new vector with given x, y, z, w components."
+    },
+    // Public Methods
+    "Vector4.Equals": {
+        "prefix": "Equals(object other)",
+        "body": "Equals(${2:object other})",
+        "description": "Returns true if the given vector is exactly equal to this vector."
+    },
+    "Vector4.Set": {
+        "prefix": "Set(float newX, float newY, float newZ, float newW)",
+        "body": "Set(${1:float newX}, ${2:float newY}, ${3:float newZ}, ${4:float newW})",
+        "description": "Set x, y, z and w components of an existing Vector4."
+    },
+    "Vector4.ToString1": {
+        "prefix": "ToString()",
+        "body": "ToString()",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    "Vector4.ToString2": {
+        "prefix": "ToString(string format)",
+        "body": "ToString(${1:string format})",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    "Vector4.ToString3": {
+        "prefix": "ToString(string format, IFormatProvider formatProvider)",
+        "body": "ToString(${1:string format}, ${2:IFormatProvider formatProvider})",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    // Static Methods
+    "Vector4.Distance": {
+        "prefix": "Distance(Vector4 a, Vector4 b)",
+        "body": "Distance(${1:Vector4 a}, ${2:Vector4 b})",
+        "description": "Returns the distance between a and b."
+    },
+    "Vector4.Dot": {
+        "prefix": "Dot(Vector4 lhs, Vector4 rhs)",
+        "body": "Dot(${1:Vector4 lhs}, ${2:Vector4 rhs})",
+        "description": "Dot Product of two vectors."
+    },
+    "Vector4.Lerp": {
+        "prefix": "Lerp(Vector4 a, Vector4 b, float t)",
+        "body": "Lerp(${1:Vector4 a}, ${2:Vector4 b}, ${2:float t})",
+        "description": "Linearly interpolates between two points."
+    },
+    "Vector4.LerpUnclamped": {
+        "prefix": "LerpUnclamped(Vector4 a, Vector4 b, float t)",
+        "body": "LerpUnclamped(${1:Vector4 a}, ${2:Vector4 b}, ${2:float t})",
+        "description": "Linearly interpolates between two vectors."
+    },
+    "Vector4.Max": {
+        "prefix": "Max(Vector4 lhs, Vector4 rhs)",
+        "body": "Max(${1:Vector4 lhs}, ${2:Vector4 rhs})",
+        "description": "Returns a vector that is made from the largest components of two vectors."
+    },
+    "Vector4.Min": {
+        "prefix": "Min(Vector4 lhs, Vector4 rhs)",
+        "body": "Min(${1:Vector4 lhs}, ${2:Vector4 rhs})",
+        "description": "Returns a vector that is made from the smallest components of two vectors."
+    },
+    "Vector4.MoveTowards": {
+        "prefix": "MoveTowards(Vector4 current, Vector4 target, float maxDistanceDelta)",
+        "body": "MoveTowards(${1:Vector4 current}, ${2:Vector4 target}, ${3:float maxDistanceDelta})",
+        "description": "Calculate a position between the points specified by current and target, moving no farther than the distance specified by maxDistanceDelta."
+    },
+    "Vector4.Normalize": {
+        "prefix": "Normalize(Vector4 value)",
+        "body": "Normalize(${1:Vector4 value})",
+        "description": "Makes this vector have a magnitude of 1."
+    },
+    "Vector4.Project": {
+        "prefix": "Project(Vector4 vector, Vector4 onNormal)",
+        "body": "Project(Vector4 vector, Vector4 onNormal)",
+        "description": "Projects a vector onto another vector."
+    },
+    "Vector4.Scale": {
+        "prefix": "Scale(Vector4 a, Vector4 b)",
+        "body": "Scale(${1:Vector4 a}, ${2:Vector4 b})",
+        "description": "Multiplies two vectors component-wise."
+    },
+}
