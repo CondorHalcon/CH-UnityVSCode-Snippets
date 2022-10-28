@@ -1,0 +1,152 @@
+{
+    // Static Properties
+    "Quaternion.identity": {
+        "prefix": "identity",
+        "body": "identity",
+        "description": "The identity rotation (Read Only)."
+    },
+    // Properties
+    "Quaternion.eulerAngles": {
+        "prefix": "eulerAngles",
+        "body": "eulerAngles",
+        "description": "Returns or sets the euler angle representation of the rotation."
+    },
+    "Quaternion.normalized": {
+        "prefix": "normalized",
+        "body": "normalized",
+        "description": "Returns this quaternion with a magnitude of 1 (Read Only)."
+    },
+    "Quaternion.this": {
+        "prefix": "this[int]",
+        "body": "this[${1:int}]",
+        "description": "Access the x, y, z, w components using [0], [1], [2], [3] respectively."
+    },
+    "Quaternion.w": {
+        "prefix": "w",
+        "body": "w",
+        "description": "W component of the Quaternion. Don't modify this directly unless you know quaternions inside out."
+    },
+    "Quaternion.x": {
+        "prefix": "x",
+        "body": "x",
+        "description": "X component of the Quaternion. Don't modify this directly unless you know quaternions inside out."
+    },
+    "Quaternion.y": {
+        "prefix": "y",
+        "body": "y",
+        "description": "Y component of the Quaternion. Don't modify this directly unless you know quaternions inside out."
+    },
+    "Quaternion.z": {
+        "prefix": "z",
+        "body": "z",
+        "description": "Z component of the Quaternion. Don't modify this directly unless you know quaternions inside out."
+    },
+    // Constructors
+    "Quaternion.Quaternion": {
+        "prefix": "Quaternion(float x, float y, float z, float w)",
+        "body": "Quaternion(${1:float x}, ${2:float y}, ${3:float z}, ${4:float w})",
+        "description": "Constructs new Quaternion with given x,y,z,w components."
+    },
+    // Public Methods
+    "Quaternion.Set": {
+        "prefix": "Set(float newX, float newY, float newZ, float newW)",
+        "body": "Set(${1:float newX}, ${2:float newY}, ${3:float newZ}, ${4:float newW})",
+        "description": "Set x, y, z and w components of an existing Quaternion."
+    },
+    "Quaternion.SetFromToRotation": {
+        "prefix": "SetFromToRotation(Vector3 fromDirection, Vector3 toDirection)",
+        "body": "SetFromToRotation(${1:Vector3 fromDirection}, ${2:Vector3 toDirection})",
+        "description": "Creates a rotation which rotates from fromDirection to toDirection."
+    },
+    "Quaternion.SetLookRotation": {
+        "prefix": "SetLookRotation(Vector3 view, Vector3 up = Vector3.up)",
+        "body": "SetLookRotation(${1:Vector3 view}, ${2:Vector3 up = Vector3.up})",
+        "description": "Creates a rotation with the specified forward and upwards directions."
+    },
+    "Quaternion.ToAngleAxis": {
+        "prefix": "ToAngleAxis(out float angle, out Vector3 axis)",
+        "body": "ToAngleAxis(${1:out float angle}, ${2:out Vector3 axis})",
+        "description": "Converts a rotation to angle-axis representation (angles in degrees)."
+    },
+    "Quaternion.ToString1": {
+        "prefix": "ToString()",
+        "body": "ToString()",
+        "description": "Returns a formatted string for this quaternion."
+    },
+    "Quaternion.ToString2": {
+        "prefix": "ToString(string format)",
+        "body": "ToString(${1:string format})",
+        "description": "Returns a formatted string for this quaternion."
+    },
+    "Quaternion.ToString3": {
+        "prefix": "ToString(string format, IFormatProvider formatProvider)",
+        "body": "ToString(${1:string format}, ${2:IFormatProvider formatProvider})",
+        "description": "Returns a formatted string for this quaternion."
+    },
+    // Static Methods
+    "Quaternion.Angle": {
+        "prefix": "Angle(Quaternion a, Quaternion b)",
+        "body": "Angle(${1:Quaternion a}, ${2:Quaternion b})",
+        "description": "Returns the angle in degrees between two rotations a and b."
+    },
+    "Quaternion.AngleAxis": {
+        "prefix": "AngleAxis(float angle, Vector3 axis)",
+        "body": "AngleAxis(${1:float angle}, ${2:Vector3 axis})",
+        "description": "Creates a rotation which rotates angle degrees around axis."
+    },
+    "Quaternion.Dot": {
+        "prefix": "Dot(Quaternion a, Quaternion b)",
+        "body": "Dot(${1:Quaternion a}, ${2:Quaternion b})",
+        "description": "The dot product between two rotations."
+    },
+    "Quaternion.Euler": {
+        "prefix": "Euler(float x, float y, float z)",
+        "body": "Euler(${1:float x}, ${2:float y}, ${3:float z})",
+        "description": "Returns a rotation that rotates z degrees around the z axis, x degrees around the x axis, and y degrees around the y axis; applied in that order."
+    },
+    "Quaternion.FromToRotation": {
+        "prefix": "FromToRotation(Vector3 fromDirection, Vector3 toDirection)",
+        "body": "FromToRotation(${1:Vector3 fromDirection}, ${2:Vector3 toDirection})",
+        "description": "Creates a rotation which rotates from fromDirection to toDirection."
+    },
+    "Quaternion.Inverse": {
+        "prefix": "Inverse(Quaternion rotation)",
+        "body": "Inverse(${1:Quaternion rotation})",
+        "description": "Returns the Inverse of rotation."
+    },
+    "Quaternion.Lerp": {
+        "prefix": "Lerp(Quaternion a, Quaternion b, float t)",
+        "body": "Lerp(${1:Quaternion a}, ${2:Quaternion b}, ${3:float t})",
+        "description": "Interpolates between a and b by t and normalizes the result afterwards. The parameter t is clamped to the range [0, 1]."
+    },
+    "Quaternion.LerpUnclamped": {
+        "prefix": "LerpUnclamped(Quaternion a, Quaternion b, float t)",
+        "body": "LerpUnclamped(${1:Quaternion a}, ${2:Quaternion b}, ${3:float t})",
+        "description": "Interpolates between a and b by t and normalizes the result afterwards. The parameter t is not clamped."
+    },
+    "Quaternion.LookRotation": {
+        "prefix": "LookRotation(Vector3 forward, Vector3 upwards = Vector3.up)",
+        "body": "LookRotation(${1:Vector3 forward}, ${2:Vector3 upwards = Vector3.up})",
+        "description": "Creates a rotation with the specified forward and upwards directions."
+    },
+    "Quaternion.Normalize": {
+        "prefix": "Normalize(Quaternion q)",
+        "body": "Normalize(${1:Quaternion q})",
+        "description": "Converts this quaternion to one with the same orientation but with a magnitude of 1."
+    },
+    "Quaternion.RotateTowards": {
+        "prefix": "RotateTowards(Quaternion from, Quaternion to, float maxDegreesDelta)",
+        "body": "RotateTowards(${1:Quaternion from}, ${2:Quaternion to}, ${3:float maxDegreesDelta})",
+        "description": "Rotates a rotation from towards to."
+    },
+    "Quaternion.Slerp": {
+        "prefix": "Slerp(Quaternion a, Quaternion b, float t)",
+        "body": "Slerp(${1:Quaternion a}, ${2:Quaternion b}, ${3:float t})",
+        "description": "Spherically interpolates between quaternions a and b by ratio t. The parameter t is clamped to the range [0, 1]."
+    },
+    "Quaternion.SlerpUnclamped": {
+        "prefix": "SlerpUnclamped(Quaternion a, Quaternion b, float t)",
+        "body": "SlerpUnclamped(${1:Quaternion a}, ${2:Quaternion b}, ${3:float t})",
+        "description": "Spherically interpolates between a and b by t. The parameter t is not clamped."
+    },
+}

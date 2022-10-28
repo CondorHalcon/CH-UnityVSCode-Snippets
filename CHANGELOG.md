@@ -3,6 +3,7 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
 
 ## [Unreleased]
 ### Added
+- Quaternion class
 - Vector2 class
 - Vector3 class
 - Vector4 class
