@@ -14,8 +14,13 @@ Author: [@CondorHalcon](https://github.com/CondorHalcon)
 > Full [features](https://github.com/CondorHalcon/CH-UnityVSCode-Snippets/FEATURES.md).
 
 ### Snippets
+- Assemblies
+  - UnityEditor
+  - UnityEngine
+  - UnityEngine.UI
 - UnityEngine.CoreModule
   - Component class
+  - GameObject class
   - Mathf class
   - Object class
   - Quaternion class

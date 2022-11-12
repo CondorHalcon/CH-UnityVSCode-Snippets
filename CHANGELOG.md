@@ -1,6 +1,7 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
+
 ## [v1.4.0-alpha] 2022-11-12
 ### Added
 - Mathf class
@@ -8,6 +9,12 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
 - Vector2 class
 - Vector3 class
 - Vector4 class
+
+## [v1.3.1-alpha] 2022-10-23
+### Changed
+- Fixed bug: `Component.GetCompomonent<Type type>()` to  `Component.GetComponent<Type type>()`
+### Removed 
+- Features File
 
 ## [v1.3.0-alpha] 2021-12-26
 ### Added
