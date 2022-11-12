@@ -1,8 +1,9 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
-## [Unreleased]
+## [v1.4.0-alpha] 2022-11-12
 ### Added
+- Mathf class
 - Quaternion class
 - Vector2 class
 - Vector3 class
