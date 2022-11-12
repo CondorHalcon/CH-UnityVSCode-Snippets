@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to the "unity-vscode-snippets" extension are be documented in this file.
 
+
+## [v1.4.0-alpha] 2022-11-12
+### Added
+- Mathf class
+- Quaternion class
+- Vector2 class
+- Vector3 class
+- Vector4 class
+
 ## [v1.3.1-alpha] 2022-10-23
 ### Changed
 - Fixed bug: `Component.GetCompomonent<Type type>()` to  `Component.GetComponent<Type type>()`
@@ -18,7 +27,6 @@ All notable changes to the "unity-vscode-snippets" extension are be documented i
   - RangeAttribute `[Range(x,y)], []` to `[Range(x,y)]`
   - SerializeField `[SerializeField], []` to `[SerializeField]`
   - TooltipAttribute `[Tooltip(tooltip)], []` to `[Tooltip(tooltip)]`
-- Fixed typo : Attributes HideInspector `[HideInInpector]` to `[HideInInspector]`
 
 ## [v1.2.0-alpha] - 2021-11-18
 ### Added

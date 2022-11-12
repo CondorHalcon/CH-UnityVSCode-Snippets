@@ -20,11 +20,29 @@ Author: [@CondorHalcon](https://github.com/CondorHalcon)
   - UnityEngine.UI
 - UnityEngine.CoreModule
   - Component class
-  - Object class
   - GameObject class
+  - Mathf class
+  - Object class
+  - Quaternion class
+  - Vector2 class
+  - Vector3 class
+  - Vector4 class
 
 ## Requirements
 item | Minimum | Recomended
 -------|---------|-----------
 VSCode | 1.53.0  | 1.53.0
 Unity  | -       | 2019.4LTS
+
+## Known Issues
+None
+
+## Release Notes [v1.4.0-alpha]
+> Full [CHANGELOGS](https://github.com/CondorHalcon/CH-UnityVSCode-Snippets/CHANGELOG.md).
+
+### Added
+- Mathf class
+- Quaternion class
+- Vector2 class
+- Vector3 class
+- Vector4 class

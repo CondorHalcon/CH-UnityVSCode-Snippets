@@ -1,0 +1,177 @@
+{
+    // Static Properties
+    "Vector3.properties": {
+        "prefix": "Vector3.staticproperty",
+        "body": "Vector3.${1|back,down,forward,left,negaticeInfinity,one,positiveInfinity,right,up,zero|}",
+        "description": "Vector3 static property.",
+    },
+    // Properties
+    "Vector3.magnitude": {
+        "prefix": "magnitude",
+        "body": "magnitude",
+        "description": "Returns the length of this vector (Read Only)."
+    },
+    "Vector3.normalized": {
+        "prefix": "normalized",
+        "body": "normalized",
+        "description": "Returns this vector with a magnitude of 1 (Read Only)."
+    },
+    "Vector3.sqrMagnitude": {
+        "prefix": "sqrMagnitude",
+        "body": "sqrMagnitude",
+        "description": "Returns the squared length of this vector (Read Only)."
+    },
+    "Vector3.this": {
+        "prefix": "this[int]",
+        "body": "this[${1:int}]",
+        "description": "Access the x or y component using [0] or [1] respectively."
+    },
+    "Vector3.x": {
+        "prefix": "x",
+        "body": "x",
+        "description": "X component of the vector."
+    },
+    "Vector3.y": {
+        "prefix": "y",
+        "body": "y",
+        "description": "Y component of the vector."
+    },
+    "Vector3.z": {
+        "prefix": "z",
+        "body": "z",
+        "description": "Z component of the vector."
+    },
+    // Constructor
+    "Vector3": {
+        "prefix": "new Vector3(float x, float y, float z)",
+        "body": "new Vector3(${1:float x}, ${2:float y}, ${3:float z})",
+        "description": "Creates a new vector with given x, y, z components."
+    },
+    // Public Methods
+    "Vector3.Equals": {
+        "prefix": "Equals(object other)",
+        "body": "Equals(${2:object other})",
+        "description": "Returns true if the given vector is exactly equal to this vector."
+    },
+    "Vector3.Set": {
+        "prefix": "Set(float newX, float newY, float newZ)",
+        "body": "Set(${1:float newX}, ${2:float newY}, ${3:float newZ})",
+        "description": "Set x, y and z components of an existing Vector3."
+    },
+    "Vector3.ToString": {
+        "prefix": "ToString()",
+        "body": "ToString()",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    "Vector3.ToString2": {
+        "prefix": "ToString(string format)",
+        "body": "ToString(${1:string format})",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    // Static Methods
+    "Vector3.Angle": {
+        "prefix": "Angle(Vector3 from, Vector3 to)",
+        "body": "Angle(${1:Vector3 from}, ${2:Vector3 to})",
+        "description": "Returns the angle in degrees between from and to."
+    },
+    "Vector3.ClampMagnitude": {
+        "prefix": "ClampMagnitude(Vector3 vector, float maxLength)",
+        "body": "ClampMagnitude(${1:Vector3 vector}, ${2:float maxLength})",
+        "description": "Returns a copy of vector with its magnitude clamped to maxLength."
+    },
+    "Vector3.Cross": {
+        "prefix": "Cross(Vector3 lhs, Vector3 rhs)",
+        "body": "Cross(${1:Vector3 lhs}, ${2:Vector3 rhs})",
+        "description": "Cross Product of two vectors."
+    },
+    "Vector3.Distance": {
+        "prefix": "Distance(Vector3 a, Vector3 b)",
+        "body": "Distance(${1:Vector3 a}, ${2:Vector3 b})",
+        "description": "Returns the distance between a and b."
+    },
+    "Vector3.Dot": {
+        "prefix": "Dot(Vector3 lhs, Vector3 rhs)",
+        "body": "Dot(${1:Vector3 lhs}, ${2:Vector3 rhs})",
+        "description": "Dot Product of two vectors."
+    },
+    "Vector3.Lerp": {
+        "prefix": "Lerp(Vector3 a, Vector3 b, float t)",
+        "body": "Lerp(${1:Vector3 a}, ${2:Vector3 b}, ${2:float t})",
+        "description": "Linearly interpolates between two points."
+    },
+    "Vector3.LerpUnclamped": {
+        "prefix": "LerpUnclamped(Vector3 a, Vector3 b, float t)",
+        "body": "LerpUnclamped(${1:Vector3 a}, ${2:Vector3 b}, ${2:float t})",
+        "description": "Linearly interpolates between two vectors."
+    },
+    "Vector3.Max": {
+        "prefix": "Max(Vector3 lhs, Vector3 rhs)",
+        "body": "Max(${1:Vector3 lhs}, ${2:Vector3 rhs})",
+        "description": "Returns a vector that is made from the largest components of two vectors."
+    },
+    "Vector3.Min": {
+        "prefix": "Min(Vector3 lhs, Vector3 rhs)",
+        "body": "Min(${1:Vector3 lhs}, ${2:Vector3 rhs})",
+        "description": "Returns a vector that is made from the smallest components of two vectors."
+    },
+    "Vector3.MoveTowards": {
+        "prefix": "MoveTowards(Vector3 current, Vector3 target, float maxDistanceDelta)",
+        "body": "MoveTowards(${1:Vector3 current}, ${2:Vector3 target}, ${3:float maxDistanceDelta})",
+        "description": "Calculate a position between the points specified by current and target, moving no farther than the distance specified by maxDistanceDelta."
+    },
+    "Vector3.Normalize": {
+        "prefix": "Normalize(Vector3 value)",
+        "body": "Normalize(${1:Vector3 value})",
+        "description": "Makes this vector have a magnitude of 1."
+    },
+    "Vector3.OrthoNormalize": {
+        "prefix": "OrthoNormalize(ref Vector3 normal, ref Vector3 tangent)",
+        "body": "OrthoNormalize(${1:ref Vector3 normal}, ${2:ref Vector3 tangent})",
+        "description": "Makes vectors normalized and orthogonal to each other."
+    },
+    "Vector3.Project": {
+        "prefix": "Project(Vector3 vector, Vector3 onNormal)",
+        "body": "Project(Vector3 vector, Vector3 onNormal)",
+        "description": "Projects a vector onto another vector."
+    },
+    "Vector3.ProjectOnPlane": {
+        "prefix": "ProjectOnPlane(Vector3 vector, Vector3 planeNormal)",
+        "body": "ProjectOnPlane(Vector3 vector, Vector3 planeNormal)",
+        "description": "Projects a vector onto a plane defined by a normal orthogonal to the plane."
+    },
+    "Vector3.Reflect": {
+        "prefix": "Reflect(Vector3 inDirection, Vector3 inNormal)",
+        "body": "Reflect(${1:Vector3 inDirection}, ${2:Vector3 inNormal})",
+        "description": "Reflects a vector off the plane defined by a normal."
+    },
+    "Vector3.RotateTowards": {
+        "prefix": "RotateTowards(Vector3 current, Vector3 target, float maxRadiansDelta, float maxMagnitudeDelta)",
+        "body": "RotateTowards(${1:Vector3 current}, ${2:Vector3 target}, ${3:float maxRadiansDelta}, ${4:float maxMagnitudeDelta})",
+        "description": "Rotates a vector current towards target."
+    },
+    "Vector3.Scale": {
+        "prefix": "Scale(Vector3 a, Vector3 b)",
+        "body": "Scale(${1:Vector3 a}, ${2:Vector3 b})",
+        "description": "Multiplies two vectors component-wise."
+    },
+    "Vector3.SignedAngle": {
+        "prefix": "SignedAngle(Vector3 from, Vector3 to)",
+        "body": "SignedAngle(${1:Vector3 from}, ${2:Vector3 to})",
+        "description": "Returns the signed angle in degrees between from and to."
+    },
+    "Vector3.Slerp": {
+        "prefix": "Slerp(Vector3 a, Vector3 b, float t)",
+        "body": "Slerp(${1:Vector3 a}, ${2:Vector3 b}, ${3:float t})",
+        "description": "Spherically interpolates between two vectors."
+    },
+    "Vector3.SlerpUnclamped": {
+        "prefix": "SlerpUnclamped(Vector3 a, Vector3 b, float t)",
+        "body": "SlerpUnclamped(${1:Vector3 a}, ${2:Vector3 b}, ${3:float t})",
+        "description": "Spherically interpolates between two vectors."
+    },
+    "Vector3.SmoothDamp": {
+        "prefix": "SmoothDamp(Vector3 current, Vector3 target, ref Vector3 currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)",
+        "body": "SmoothDamp(${1:Vector3 current}, ${2:Vector3 target}, ${3:ref Vector3 currentVelocity}, ${4:float smoothTime}, ${5:float maxSpeed = Mathf.Infinity}, ${6:float deltaTime = Time.deltaTime})",
+        "description": "Gradually changes a vector towards a desired goal over time."
+    },
+}

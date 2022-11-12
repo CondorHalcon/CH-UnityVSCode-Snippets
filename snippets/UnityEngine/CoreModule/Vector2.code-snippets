@@ -1,0 +1,142 @@
+{
+    // Static Properties
+    "Vector2.properties": {
+        "prefix": "Vector2.staticproperty",
+        "body": "Vector2.${1|down,left,negaticeInfinity,one,positiveInfinity,right,up,zero|}",
+        "description": "Vector2 static property.",
+    },
+    // Properties
+    "Vector2.magnitude": {
+        "prefix": "magnitude",
+        "body": "magnitude",
+        "description": "Returns the length of this vector (Read Only)."
+    },
+    "Vector2.normalized": {
+        "prefix": "normalized",
+        "body": "normalized",
+        "description": "Returns this vector with a magnitude of 1 (Read Only)."
+    },
+    "Vector2.sqrMagnitude": {
+        "prefix": "sqrMagnitude",
+        "body": "sqrMagnitude",
+        "description": "Returns the squared length of this vector (Read Only)."
+    },
+    "Vector2.this": {
+        "prefix": "this[int]",
+        "body": "this[${1:int}]",
+        "description": "Access the x or y component using [0] or [1] respectively."
+    },
+    "Vector2.x": {
+        "prefix": "x",
+        "body": "x",
+        "description": "X component of the vector."
+    },
+    "Vector2.y": {
+        "prefix": "y",
+        "body": "y",
+        "description": "Y component of the vector."
+    },
+    // Constructor
+    "Vector2": {
+        "prefix": "new Vector2(float x, float y)",
+        "body": "new Vector2(${1:float x}, ${2:float y})",
+        "description": "Constructs a new vector with given x, y components."
+    },
+    // Public Methods
+    "Vector2.Equals": {
+        "prefix": "Equals(object other)",
+        "body": "Equals(${2:object other})",
+        "description": "Returns true if the given vector is exactly equal to this vector."
+    },
+    "Vector2.Normalize": {
+        "prefix": "Normalize()",
+        "body": "Normalize()",
+        "description": "Makes this vector have a magnitude of 1."
+    },
+    "Vector2.Set": {
+        "prefix": "Set(float newX, float newY)",
+        "body": "Set(${1:float newX}, ${2:float newY})",
+        "description": "Set x and y components of an existing Vector2."
+    },
+    "Vector2.ToString": {
+        "prefix": "ToString()",
+        "body": "ToString()",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    "Vector2.ToString2": {
+        "prefix": "ToString(string format)",
+        "body": "ToString(${1:string format})",
+        "description": "Returns a nicely formatted string for this vector."
+    },
+    // Static Methods
+    "Vector2.Angle": {
+        "prefix": "Angle(Vector2 from, Vector2 to)",
+        "body": "Angle(${1:Vector2 from}, ${2:Vector2 to})",
+        "description": "Returns the unsigned angle in degrees between from and to."
+    },
+    "Vector2.ClampMagnitude": {
+        "prefix": "ClampMagnitude(Vector2 vector, float maxLength)",
+        "body": "ClampMagnitude(${1:Vector2 vector}, ${2:float maxLength})",
+        "description": "Returns a copy of vector with its magnitude clamped to maxLength."
+    },
+    "Vector2.Distance": {
+        "prefix": "Distance(Vector2 a, Vector2 b)",
+        "body": "Distance(${1:Vector2 a}, ${2:Vector2 b})",
+        "description": "Returns the distance between a and b."
+    },
+    "Vector2.Dot": {
+        "prefix": "Dot(Vector2 lhs, Vector2 rhs)",
+        "body": "Dot(${1:Vector2 lhs}, ${2:Vector2 rhs})",
+        "description": "Dot Product of two vectors."
+    },
+    "Vector2.Lerp": {
+        "prefix": "Lerp(Vector2 a, Vector2 b, float t)",
+        "body": "Lerp(${1:Vector2 a}, ${2:Vector2 b}, ${2:float t})",
+        "description": "Linearly interpolates between vectors a and b by t."
+    },
+    "Vector2.LerpUnclamped": {
+        "prefix": "LerpUnclamped(Vector2 a, Vector2 b, float t)",
+        "body": "LerpUnclamped(${1:Vector2 a}, ${2:Vector2 b}, ${2:float t})",
+        "description": "Linearly interpolates between vectors a and b by t."
+    },
+    "Vector2.Max": {
+        "prefix": "Max(Vector2 lhs, Vector2 rhs)",
+        "body": "Max(${1:Vector2 lhs}, ${2:Vector2 rhs})",
+        "description": "Returns a vector that is made from the largest components of two vectors."
+    },
+    "Vector2.Min": {
+        "prefix": "Min(Vector2 lhs, Vector2 rhs)",
+        "body": "Min(${1:Vector2 lhs}, ${2:Vector2 rhs})",
+        "description": "Returns a vector that is made from the smallest components of two vectors."
+    },
+    "Vector2.MoveTowards": {
+        "prefix": "MoveTowards(Vector2 current, Vector2 target, float maxDistanceDelta)",
+        "body": "MoveTowards(${1:Vector2 current}, ${2:Vector2 target}, ${3:float maxDistanceDelta})",
+        "description": "Moves a point current towards target."
+    },
+    "Vector2.Perpandicular": {
+        "prefix": "Perpandicular(Vector2 inDirection)",
+        "body": "Perpandicular(${1:Vector2 inDirection})",
+        "description": "Returns the 2D vector perpendicular to this 2D vector. The result is always rotated 90-degrees in a counter-clockwise direction for a 2D coordinate system where the positive Y axis goes up."
+    },
+    "Vector2.Reflect": {
+        "prefix": "Reflect(Vector2 inDirection, Vector2 inNormal)",
+        "body": "Reflect(${1:Vector2 inDirection}, ${2:Vector2 inNormal})",
+        "description": "Reflects a vector off the vector defined by a normal."
+    },
+    "Vector2.Scale": {
+        "prefix": "Scale(Vector2 a, Vector2 b)",
+        "body": "Scale(${1:Vector2 a}, ${2:Vector2 b})",
+        "description": "Multiplies two vectors component-wise."
+    },
+    "Vector2.SignedAngle": {
+        "prefix": "SignedAngle(Vector2 from, Vector2 to)",
+        "body": "SignedAngle(${1:Vector2 from}, ${2:Vector2 to})",
+        "description": "Returns the signed angle in degrees between from and to."
+    },
+    "Vector2.SmoothDamp": {
+        "prefix": "SmoothDamp(Vector2 current, Vector2 target, ref Vector2 currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)",
+        "body": "SmoothDamp(${1:Vector2 current}, ${2:Vector2 target}, ${3:ref Vector2 currentVelocity}, ${4:float smoothTime}, ${5:float maxSpeed = Mathf.Infinity}, ${6:float deltaTime = Time.deltaTime})",
+        "description": "Gradually changes a vector towards a desired goal over time."
+    },
+}
