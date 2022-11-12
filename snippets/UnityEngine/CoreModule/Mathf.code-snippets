@@ -1,0 +1,244 @@
+{
+    // Static Properties
+    "Mathf.properties": {
+        "prefix": "Mathf.staticproperty",
+        "body": "Mathf.${1|Deg2Rad,Epsilon,Infinity,NegativeInfinity,PI,Rad2Deg|}",
+        "description": "Vector4 static property.",
+    },
+    // Static Methods
+    "Mathf.Abs": {
+        "prefix": "Mathf.Abs(float f)",
+        "body": "Mathf.Abs(${1:float f})",
+        "description": "Returns the absolute value of f."
+    },
+    "Mathf.Acos": {
+        "prefix": "Mathf.Acos(float f)",
+        "body": "Mathf.Acos(${1:float f})",
+        "description": "Returns the arc-cosine of f - the angle in radians whose cosine is f."
+    },
+    "Mathf.Approximately": {
+        "prefix": "Mathf.Approximately(float a, float b)",
+        "body": "Mathf.Approximately(${1:float a}, ${2:float b})",
+        "description": "Compares two floating point values and returns true if they are similar."
+    },
+    "Mathf.Asin": {
+        "prefix": "Mathf.Asin(float f)",
+        "body": "Mathf.Asin(${1:float f})",
+        "description": "Returns the arc-sine of f - the angle in radians whose sine is f."
+    },
+    "Mathf.Atan": {
+        "prefix": "Mathf.Atan(float f)",
+        "body": "Mathf.Atan(${1:float f})",
+        "description": "Returns the arc-tangent of f - the angle in radians whose tangent is f."
+    },
+    "Mathf.Atan2": {
+        "prefix": "Mathf.Atan2(float y, float x)",
+        "body": "Mathf.Atan2(${1:float y}, ${2:float x})",
+        "description": "Returns the angle in radians whose Tan is y/x."
+    },
+    "Mathf.Ceil": {
+        "prefix": "Mathf.Ceil(float f)",
+        "body": "Mathf.Ceil(${1:float f})",
+        "description": "Returns the smallest integer greater to or equal to f."
+    },
+    "Mathf.CeilToInt": {
+        "prefix": "Mathf.CeilToInt(float f)",
+        "body": "Mathf.CeilToInt(${1:float f})",
+        "description": "Returns the smallest integer greater to or equal to f."
+    },
+    "Math.Clamp": {
+        "prefix": "Math.Clamp(float value, float min, float max)",
+        "body": "Math.Clamp(${1:float value}, ${2:float min}, ${3:float max})",
+        "description": "Clamps the given value between the given minimum float and maximum float values. Returns the given value if it is within the min and max range."
+    },
+    "Mathf.Clamp01": {
+        "prefix": "Mathf.Clamp01(float value)",
+        "body": "Mathf.Clamp01(${1:float value})",
+        "description": "Clamps value between 0 and 1 and returns value."
+    },
+    "Mathf.ClosestPowerOfTwo": {
+        "prefix": "Mathf.ClosestPowerOfTwo(int value)",
+        "body": "Mathf.ClosestPowerOfTwo(${1:int value})",
+        "description": "Returns the closest power of two value."
+    },
+    "Mathf.CorrelatedColorTemperatureToRGB": {
+        "prefix": "Mathf.CorrelatedColorTemperatureToRGB(float kelvin)",
+        "body": "Mathf.CorrelatedColorTemperatureToRGB(${1:float kelvin})",
+        "description": "Convert a color temperature in Kelvin to RGB color."
+    },
+    "Mathf.Cos": {
+        "prefix": "Mathf.Cos(float f)",
+        "body": "Mathf.Cos(${1:float f})",
+        "description": "Returns the cosine of angle f."
+    },
+    "Mathf.DeltaAngle": {
+        "prefix": "Mathf.DeltaAngle(float current, float target)",
+        "body": "Mathf.DeltaAngle(${1:float current}, ${2:float target})",
+        "description": "Calculates the shortest difference between two given angles given in degrees."
+    },
+    "Mathf.Exp": {
+        "prefix": "Mathf.Exp(float power)",
+        "body": "Mathf.Exp(${1:float power})",
+        "description": "Returns e raised to the specified power."
+    },
+    "Mathf.Floor": {
+        "prefix": "Mathf.Floor(float f)",
+        "body": "Mathf.Floor(${1:float f})",
+        "description": "Returns the largest integer smaller than or equal to f."
+    },
+    "Mathf.FloorToInt": {
+        "prefix": "Mathf.FloorToInt(float f)",
+        "body": "Mathf.FloorToInt(${1:float f})",
+        "description": "Returns the largest integer smaller to or equal to f."
+    },
+    "Mathf.GammaToLinearSpace": {
+        "prefix": "Mathf.GammaToLinearSpace(float value)",
+        "body": "Mathf.GammaToLinearSpace(${1:float value})",
+        "description": "Converts the given value from gamma (sRGB) to linear color space."
+    },
+    "Mathf.InverserLerp": {
+        "prefix": "Mathf.InverserLerp(float a, float b, float value)",
+        "body": "Mathf.InverserLerp(${1:float a}, ${2:float b}, ${3:float value})",
+        "description": "Calculates the linear parameter t that produces the interpolant value within the range [a, b]."
+    },
+    "Mathf.IsPowerOfTwo": {
+        "prefix": "Mathf.IsPowerOfTwo(int value)",
+        "body": "Mathf.IsPowerOfTwo(${1:int value})",
+        "description": "Returns true if the value is power of two."
+    },
+    "Mathf.Lerp": {
+        "prefix": "Mathf.Lerp(float a, float b, float t)",
+        "body": "Mathf.Lerp(${1:float a}, ${2:float b}, ${3:float t})",
+        "description": "Linearly interpolates between a and b by t."
+    },
+    "Mathf.LerpAngle": {
+        "prefix": "Mathf.LerpAngle(float a, float b, float t)",
+        "body": "Mathf.LerpAngle(${1:float a}, ${2:float b}, ${3:float t})",
+        "description": "Same as Lerp but makes sure the values interpolate correctly when they wrap around 360 degrees."
+    },
+    "Mathf.LerpUnclamped": {
+        "prefix": "Mathf.LerpUnclamped(float a, float b, float t)",
+        "body": "Mathf.LerpUnclamped(${1:float a}, ${2:float b}, ${3:float t})",
+        "description": "Linearly interpolates between a and b by t with no limit to t."
+    },
+    "Mathf.LinearToGammaSpace": {
+        "prefix": "Mathf.LinearToGammaSpace(float value)",
+        "body": "Mathf.LinearToGammaSpace(${1:float value})",
+        "description": "Converts the given value from linear to gamma (sRGB) color space."
+    },
+    "Mathf.Log1": {
+        "prefix": "Mathf.Log(float f, float p)",
+        "body": "Mathf.Log(${1:float f}, ${2:float p})",
+        "description": "Returns the logarithm of a specified number in a specified base."
+    },
+    "Mathf.Log2": {
+        "prefix": "Mathf.Log(float f)",
+        "body": "Mathf.Log(${1:float f})",
+        "description": "Returns the natural (base e) logarithm of a specified number."
+    },
+    "Mathf.Log10": {
+        "prefix": "Log10(float f)",
+        "body": "Log10(${1:float f})",
+        "description": "Returns the base 10 logarithm of a specified number."
+    },
+    "Mathf.Max1": {
+        "prefix": "Mathf.Max(float a, float b)",
+        "body": "Mathf.Max(${1:float a}, ${2:float b})",
+        "description": "Returns largest of two or more values."
+    },
+    "Mathf.Max2": {
+        "prefix": "Mathf.Max(params float[] values)",
+        "body": "Mathf.Max(${1:params float[] values})",
+        "description": "Returns largest of two or more values."
+    },
+    "Mathf.Min1": {
+        "prefix": "Mathf.Min(float a, float b)",
+        "body": "Mathf.Min(${1:float a}, ${2:float b})",
+        "description": "Returns the smallest of two or more values."
+    },
+    "Mathf.Min2": {
+        "prefix": "Mathf.Min(params float[] values)",
+        "body": "Mathf.Min(${1:params float[] values})",
+        "description": "Returns the smallest of two or more values."
+    },
+    "Mathf.MoveTowards": {
+        "prefix": "Mathf.MoveTowards(float current, float target, float maxDelta)",
+        "body": "Mathf.MoveTowards(${1:float current}, ${2:float target}, ${3:float maxDelta})",
+        "description": "Moves a value current towards target."
+    },
+    "Mathf.MoveTowardsAngle": {
+        "prefix": "Mathf.MoveTowardsAngle(float current, float target, float maxDelta)",
+        "body": "Mathf.MoveTowardsAngle(${1:float current}, ${2:float target}, ${3:float maxDelta})",
+        "description": "Same as Mathf.MoveTowards but makes sure the values interpolate correctly when they wrap around 360 degrees."
+    },
+    "Mathf.NextPowerOfTwo": {
+        "prefix": "Mathf.NextPowerOfTwo(int value)",
+        "body": "Mathf.NextPowerOfTwo(${1:int value})",
+        "description": "Returns the next power of two that is equal to, or greater than, the argument."
+    },
+    "Mathf.PerlinNoise": {
+        "prefix": "Mathf.PerlinNoise(float x, float y)",
+        "body": "Mathf.PerlinNoise(${1:float x}, ${2:float y})",
+        "description": "Generate 2D Perlin noise."
+    },
+    "Mathf.PingPong": {
+        "prefix": "Mathf.PingPong(float t, float length)",
+        "body": "Mathf.PingPong(${1:float t}, ${2:float length})",
+        "description": "PingPong returns a value that will increment and decrement between the value 0 and length."
+    },
+    "Mathf.Pow": {
+        "prefix": "Mathf.Pow(float f, float p)",
+        "body": "Mathf.Pow(${1:float f}, ${2:float p})",
+        "description": "Returns f raised to power p."
+    },
+    "Mathf.Repeat": {
+        "prefix": "Mathf.Repeat(float t, float length)",
+        "body": "Mathf.Repeat(${1:float t}, ${2:float length})",
+        "description": "Loops the value t, so that it is never larger than length and never smaller than 0."
+    },
+    "Mathf.Round": {
+        "prefix": "Mathf.Round(float f)",
+        "body": "Mathf.Round(${1:float f})",
+        "description": "Returns f rounded to the nearest integer."
+    },
+    "Mathf.RoundToInt": {
+        "prefix": "Mathf.RoundToInt(float f)",
+        "body": "Mathf.RoundToInt(${1:float f})",
+        "description": "Returns f rounded to the nearest integer."
+    },
+    "Mathf.Sign": {
+        "prefix": "Mathf.Sign(float f)",
+        "body": "Mathf.Sign(${1:float f})",
+        "description": "Returns the sign of f."
+    },
+    "Mathf.Sin": {
+        "prefix": "Mathf.Sin(float f)",
+        "body": "Mathf.Sin(${1:float f})",
+        "description": "Returns the sine of angle f."
+    },
+    "Mathf.SmoothDamp": {
+        "prefix": "Mathf.SmoothDamp(float current, float target, ref float currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)",
+        "body": "Mathf.SmoothDamp(${1:float current}, ${2:float target}, ${3:ref float currentVelocity}, ${4:float smoothTime}, ${5:float maxSpeed = Mathf.Infinity}, ${6:float deltaTime = Time.deltaTime})",
+        "description": "Gradually changes a value towards a desired goal over time."
+    },
+    "Mathf.SmoothDampAngle": {
+        "prefix": "Mathf.SmoothDampAngle(float current, float target, ref float currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime)",
+        "body": "Mathf.SmoothDampAngle(${1:float current}, ${2:float target}, ${3:ref float currentVelocity}, ${4:float smoothTime}, ${5:float maxSpeed = Mathf.Infinity}, ${6:float deltaTime = Time.deltaTime})",
+        "description": "Gradually changes an angle given in degrees towards a desired goal angle over time."
+    },
+    "Mathf.SmoothStep": {
+        "prefix": "Mathf.SmoothStep(float from, float to, float t)",
+        "body": "Mathf.SmoothStep(${1:float from}, ${2:float to}, ${3:float t})",
+        "description": "Interpolates between min and max with smoothing at the limits."
+    },
+    "Mathf.Sqrt": {
+        "prefix": "Mathf.Sqrt(float f)",
+        "body": "Mathf.Sqrt(${1:float f})",
+        "description": "Returns square root of f."
+    },
+    "Mathf.Tan": {
+        "prefix": "Mathf.Tan(float f)",
+        "body": "Mathf.Tan(${1:float f})",
+        "description": "Returns the tangent of angle f in radians."
+    },
+}
